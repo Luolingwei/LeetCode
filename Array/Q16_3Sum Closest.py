@@ -5,8 +5,7 @@ class Solution:
         :type target: int
         :rtype: int
         """
-        # close=abs(nums[0]+nums[1]+nums[2]-target)+1
-        close=1000000
+        close=abs(nums[0]+nums[1]+nums[2]-target)+1
         answer=nums[0]+nums[1]+nums[2]
         a=0
         b=1
