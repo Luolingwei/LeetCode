@@ -8,19 +8,24 @@ class Solution:
         a=0
         b=1
         c=2
+        nums.sort()
         l=len(nums)
         while a<l:
             while b<l:
                 while c<l:
                     if nums[a]+nums[b]+nums[c]==0:
                         answer_zero=[nums[a],nums[b],nums[c]]
-                        S.append(answer_zero)
+                        if answer_zero not in S:
+                            S.append(answer_zero)
                     c=c+1
                 b=b+1
                 c=b+1
             a=a+1
             b=a+1
+            c=b+1
         return S
 
 a=Solution()
-print(a.threeSum([-1,0,1,2,-1,-4,8,-3,5,7]))
+print(a.threeSum([4,7,3,2,-4]))
+print(a.threeSum([-1,-1,2,-1,-1,2,2,-4,1]))
+print(a.threeSum([0,5,9,6,16,12,18,8,-5,-4,-2,-6]))
