@@ -11,6 +11,8 @@ class Solution:
         nums.sort()
         l=len(nums)
         while a<l:
+            if nums[a]>0:
+                break;
             while b<l:
                 while c<l:
                     if nums[a]+nums[b]+nums[c]==0:

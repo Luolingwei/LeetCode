@@ -4,19 +4,22 @@ class Solution:
         :type height: List[int]
         :rtype: int
         """
-
-        i = j = 0
-        max = 0
+        self.max = 0
         l = len(height)
-        while i < l:
-            while j < l:
-                if (min(height[i], height[j]) * abs(i - j)) > max:
-                    max = min(height[i], height[j]) * abs(i - j)
-                j = j + 1
-            i = i + 1
-            j = 0
-        return max
+        i = 0
+        j=l-1
 
+        while i!=j:
+            if self.computeArea(height,i,j)>self.max:
+                self.max=self.computeArea(height,i,j)
+            if height[i]>height[j]:
+                j=j-1
+            else:
+                i=i+1
+        return self.max
+
+    def computeArea(self,height,i,j):
+        return min(height[i], height[j]) * abs(i - j)
 
 a = Solution()
 print(a.maxArea([8, 1, 1, 1, 8]))
