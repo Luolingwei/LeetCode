@@ -6,8 +6,6 @@ class Solution:
         """
         n=len(obstacleGrid)
         m=len(obstacleGrid[0])
-        if obstacleGrid[0][0]==1:#左上角像素为障碍
-            return 0
         for i in range(n):
             for j in range(m):
                 # 边缘像素
@@ -35,3 +33,4 @@ print(a.uniquePathsWithObstacles([[0,0],[1,0]]))
 print(a.uniquePathsWithObstacles([[0,1]]))
 print(a.uniquePathsWithObstacles([[0,0,0]]))
 print(a.uniquePathsWithObstacles([[0],[0],[1]]))
+print(a.uniquePathsWithObstacles([[1,0],[0,0],[0,0]]))
