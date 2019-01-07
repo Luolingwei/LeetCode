@@ -22,6 +22,3 @@ print(a.reverse(123))
 print(a.reverse(120))
 print(a.reverse(-123))
 print(a.reverse(-999999999999999999999999999999999))
-
-
-
