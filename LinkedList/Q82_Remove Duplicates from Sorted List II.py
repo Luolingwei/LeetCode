@@ -15,16 +15,11 @@ class Solution(object):
         last = prehead
         node = head
         while node and node.next:
-            node = node.next
-            while node and node.val == last.next.val:
-                node = node.next
-            if node==last.next.next:
-                last = last.next
+            node=node.next
+            while node and node.val==last.next.val:
+                node=node.next
+            if last.next.next==node:
+                last=last.next
             else:
-                last.next = node
+                last.next=node
         return prehead.next
-
-
-
-
-
