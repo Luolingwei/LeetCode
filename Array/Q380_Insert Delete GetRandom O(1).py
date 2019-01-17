@@ -4,7 +4,7 @@ class RandomizedSet:
         """
         Initialize your data structure here.
         """
-        self.Randomset=set()
+        self.Randomset=[]
         self.length=0
 
     def insert(self, val):
@@ -16,7 +16,7 @@ class RandomizedSet:
         if val in self.Randomset:
             return False
         else:
-            self.Randomset.add(val)
+            self.Randomset.append(val)
             self.length+=1
             return True
 
@@ -39,7 +39,7 @@ class RandomizedSet:
         :rtype: int
         """
         import random
-        return list(self.Randomset)[random.randint(0,self.length-1)]
+        return self.Randomset[random.randint(0,self.length-1)]
 
 # Your RandomizedSet object will be instantiated and called as such:
 # obj = RandomizedSet()
