@@ -4,6 +4,7 @@ class Solution:
             return
         if target==0:
             res.append(path)
+            return
         for i in range(start,len(nums)):
             self.dfs(nums,target-nums[i],i,res,path+[nums[i]])
     def combinationSum(self, candidates, target):
