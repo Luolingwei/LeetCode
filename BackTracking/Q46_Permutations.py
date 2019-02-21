@@ -2,6 +2,7 @@ class Solution:
     def dfs(self,nums,path,ans):
         if len(path)==len(nums):
             ans.append(path)
+            return
         for num in nums:
             if num not in path:
                 self.dfs(nums,path+[num],ans)
