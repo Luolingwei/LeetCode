@@ -1,4 +1,23 @@
 class Solution:
+    #solution 1
+    # def permute(self, nums):
+    #     ans=[[]]
+    #     for _ in range(len(nums)):
+    #         temp=[]
+    #         for path in ans:
+    #             for num in nums:
+    #                 if num not in path: temp.append(path+[num])
+    #         ans=temp[:]
+    #     return ans
+
+    #solution 2
+    # def permute(self, nums):
+    #     ans = [[]]
+    #     for _ in range(len(nums)):
+    #         ans = [path + [num] for path in ans for num in nums if num not in path]
+    #     return ans
+
+    #solution 3
     def dfs(self,nums,path,ans):
         if len(path)==len(nums):
             ans.append(path)
