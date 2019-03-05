@@ -12,7 +12,7 @@ class Solution:
             deque+=[i]
             if deque[0]==i-k:
                 deque.pop(0)
-            if i>=k:
+            if i>=k-1:
                 ans+=[nums[deque[0]]]
         return ans
 
