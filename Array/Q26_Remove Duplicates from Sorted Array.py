@@ -4,20 +4,10 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
-        i=1
-        if nums==[]:
-            return 0
-        l=len(nums)
-        index=nums[0]
-        while i<l:
-            if nums[i]==index:
+        for i in range(len(nums)-1,0,-1):
+            if nums[i]==nums[i-1]:
                 nums.pop(i)
-                l=l-1
-            else:
-                index=nums[i]
-                i = i + 1
-        new_l=len(nums)
-        return new_l
+        return len(nums)
 
 a=Solution()
 print(a.removeDuplicates([0,0,1,1,2,2,3,3,3,5,6,6]))
