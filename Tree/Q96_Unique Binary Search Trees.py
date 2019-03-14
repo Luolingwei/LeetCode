@@ -1,4 +1,5 @@
 class Solution:
+    # DP solution
     def numTrees(self, n):
         dp=[1]*(n+1)
         for i in range(2,n+1):
