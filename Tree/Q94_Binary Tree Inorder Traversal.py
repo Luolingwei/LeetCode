@@ -11,10 +11,13 @@ class Solution:
         :type root: TreeNode
         :rtype: List[int]
         """
-        ans=[]
-        if not root:
-            return []
-        ans+=self.inorderTraversal(root.left)
-        ans+=[root.val]
-        ans+=self.inorderTraversal(root.right)
-        return ans
+        stack,ans=[],[]
+        while True:
+            while root:
+                stack.append(root)
+                root=root.left
+            if not stack:
+                return ans
+            node=stack.pop()
+            ans.append(node.val)
+            root=node.right
