@@ -1,20 +1,19 @@
 import collections
 class Solution:
     def canFinish(self, numCourses, prerequisites):
-        restrict=collections.defaultdict(set)
-        for pair in prerequisites:
-            restrict[pair[0]].add(pair[1])
-        i_dic=set([i for i in range(numCourses) if i not in restrict.keys()])
-        while restrict:
-            flag = 0
-            for i in list(restrict.keys()):
-                if restrict[i].issubset(i_dic):
-                    i_dic.add(i)
-                    restrict.pop(i)
-                    flag = 1
-            if flag == 0: break
+        restrict,course_conn=collections.defaultdict(set),collections.defaultdict(set)
+        for tuple in prerequisites:
+            restrict[tuple[0]].add(tuple[1])
+            course_conn[tuple[1]].add(tuple[0])
+        stack=[i for i in range(numCourses) if not restrict[i]]
+        while stack:
+            course=stack.pop()
+            for i in course_conn[course]:
+                restrict[i].remove(course)
+                if not restrict[i]:
+                    stack.append(i)
+            restrict.pop(course)
         return not restrict
-
 
 a=Solution()
 print(a.canFinish(2,[[1,0]]))
