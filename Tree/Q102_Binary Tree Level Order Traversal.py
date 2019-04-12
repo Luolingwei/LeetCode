@@ -19,7 +19,15 @@ class Solution:
     #     self.helper(root,ans,0)
     #     return ans
 
-    # solution 2 iterative
+    # solution 2 level by level
+    # def levelOrder(self, root):
+    #     ans,level=[],[root]
+    #     while root and level:
+    #         ans.append([node.val for node in level])
+    #         level=[node for root in level for node in (root.left, root.right) if node]
+    #     return ans
+
+    # solution 3 iterative
     def levelOrder(self, root):
         ans,stack=[],[(root,0)]
         while stack:
