@@ -7,23 +7,14 @@ class Solution:
     # k -> index  t -> value
 
     def containsNearbyAlmostDuplicate(self, nums, k: int, t: int) -> bool:
-        # if t<0: return False
-        # dic={}
-        # for i in range(len(nums)):
-        #     m=nums[i]//(t+1)
-        #     if m in dic or (m-1 in dic and nums[i]-dic[m-1]<=t) or (m+1 in dic and dic[m+1]-nums[i]<=t):
-        #         return True
-        #     dic[m]=nums[i]
-        #     if i>=k: dic.pop(nums[i-k]//(t+1))
-        # return False
-
-        dic=set()
+        if t<0: return False
+        dic={}
         for i in range(len(nums)):
-            for n in dic:
-                if abs(nums[i]-n)<=t:
-                    return True
-            dic.add(nums[i])
-            if len(dic)>k: dic.remove(nums[i-k])
+            m=nums[i]//(t+1)
+            if m in dic or (m-1 in dic and nums[i]-dic[m-1]<=t) or (m+1 in dic and dic[m+1]-nums[i]<=t):
+                return True
+            dic[m]=nums[i]
+            if i>=k: dic.pop(nums[i-k]//(t+1))
         return False
 
 
