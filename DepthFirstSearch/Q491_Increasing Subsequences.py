@@ -5,21 +5,20 @@
 # visited的用法: 在每一个nums中（dfs过程中会出现多个nums, 如4,6,6 | 6,6），如果有重复值出现，如4,6,6，则跳过1个6，因为产生的序列将会全部是重复序列
 
 class Solution:
-    def dfs(self,nums,ans,path):
-        if len(path)>=2:
-            ans.append(path)
-        visited=set()
-        for i in range(len(nums)):
-            if not path or nums[i]>=path[-1]:
-                if nums[i] not in visited:
-                    visited.add(nums[i])
-                    self.dfs(nums[i+1:],ans,path+[nums[i]])
-
     def findSubsequences(self, nums):
-        ans=[]
-        self.dfs(nums,ans,[])
-        return ans
+        def dfs(nums,path):
+            if len(path)>= 2:
+                ans.append(path)
+            visited=set()
+            for i in range(len(nums)):
+                if not path or nums[i]>=path[-1]:
+                    if nums[i] not in visited:
+                        visited.add(nums[i])
+                        dfs(nums[i+1:],path+[nums[i]])
 
+        ans=[]
+        dfs(nums,[])
+        return ans
 
 a=Solution()
 print(a.findSubsequences([4,6,6]))
