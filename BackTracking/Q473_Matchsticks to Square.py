@@ -13,17 +13,19 @@
 class Solution:
     def makesquare(self, nums):
         if len(nums)<4 or sum(nums)%4!=0: return False
+        T=sum(nums)//4
         nums.sort(reverse=True)
-        taeget=[sum(nums)/4]*4
-        def dfs(nums,pos,target):
+        if nums[0]>T: return False
+        target=[T]*4
+        def dfs(pos):
             if pos==len(nums):return True
             for i in range(4):
                 if target[i]>=nums[pos]:
                     target[i]-=nums[pos]
-                    if dfs(nums,pos+1,target): return True
+                    if dfs(pos+1): return True
                     target[i]+=nums[pos]
             return False
-        return dfs(nums,0,taeget)
+        return dfs(0)
 
 a=Solution()
 print(a.makesquare([1,1,2,2,2]))
