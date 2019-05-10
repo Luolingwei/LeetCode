@@ -5,19 +5,10 @@
 #         self.left = None
 #         self.right = None
 
-# You may serialize the following tree:
-#
-#     1
-#    / \
-#   2   3
-#      / \
-#     4   5
-#
-# as "[1,2,3,null,null,4,5]"
+# 和 Q297不一样的是，这里增加了BST的性质，而且题目要求“The encoded string should be as compact as possible”，所以这里可以不存储空节点，利用BSY的性质进行Deserialize.
 
 class Codec:
 
-    # preorder
     def serialize(self, root):
         """Encodes a tree to a single string.
 
@@ -25,9 +16,7 @@ class Codec:
         :rtype: str
         """
         def helper(root):
-            if not root:
-                vals.append('#')
-            else:
+            if root:
                 vals.append(root.val)
                 helper(root.left)
                 helper(root.right)
@@ -35,25 +24,22 @@ class Codec:
         helper(root)
         return vals
 
-
     def deserialize(self, data):
         """Decodes your encoded data to tree.
 
         :type data: str
         :rtype: TreeNode
         """
-        def helper():
-            val=next(vals)
-            if val=='#':
-                return None
-            root=TreeNode(val)
-            root.left=helper()
-            root.right=helper()
-            return root
+        # 用BST的性质对节点进行分割和判断，而不是用空节点'#'了
+        def helper(MinVal,MaxVal):
+            if data and MinVal<data[0]<MaxVal:
+                val=data.pop(0)
+                root=TreeNode(val)
+                root.left=helper(MinVal,val)
+                root.right=helper(val,MaxVal)
+                return root
 
-        vals=iter(data)
-        return helper()
-
+        return helper(float('-inf'),float('inf'))
 
 
 # Your Codec object will be instantiated and called as such:
