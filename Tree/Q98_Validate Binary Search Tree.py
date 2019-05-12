@@ -6,15 +6,13 @@
 #         self.right = None
 
 class Solution:
-    def inorder(self,root,ans):
-        if not root:
-            return
-        else:
-            self.inorder(root.left,ans)
-            ans.append(root.val)
-            self.inorder(root.right,ans)
-        return ans
     def isValidBST(self, root):
+        def inorder(root):
+            if root:
+                inorder(root.left)
+                ans.append(root.val)
+                inorder(root.right)
+            return ans
         ans=[]
-        self.inorder(root,ans)
+        inorder(root)
         return sorted(list(set(ans)))==ans
