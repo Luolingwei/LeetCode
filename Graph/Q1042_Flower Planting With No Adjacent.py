@@ -1,3 +1,6 @@
+
+# 思路: 因为每个像素最多有3个相邻像素，所以一定有可以涂的元素，用{1,2,3,4}减去其相邻元素涂的颜色，从中pop一个即可。
+
 class Solution:
     def gardenNoAdj(self, N, paths):
         dic,res=[[] for _ in range(N)],[0]*N
