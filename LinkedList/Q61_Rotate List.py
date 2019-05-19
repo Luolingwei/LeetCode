@@ -13,19 +13,16 @@ class Solution(object):
         """
         if not head or not head.next:
             return head
-        node =test=head
+        p=node=head
         length=1
-        while test.next:
-            test=test.next
+        while p.next:
+            p=p.next
             length+=1
-        for _ in range(k%length):
-            while node.next:
-                if not node.next.next:
-                    temp=node
-                node=node.next
-            node.next=head
-            head=node
-            temp.next=None
-        return node
-
-
+        carry=length-k%length-1
+        while carry:
+            node=node.next
+            carry-=1
+        p.next=head
+        head=node.next
+        node.next=None
+        return head
