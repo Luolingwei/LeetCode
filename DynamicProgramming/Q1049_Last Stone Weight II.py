@@ -11,4 +11,3 @@ class Solution:
 
 a=Solution()
 print(a.lastStoneWeightII([2,7,4,1,8,1]))
-
