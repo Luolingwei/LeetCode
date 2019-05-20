@@ -6,7 +6,7 @@ class Solution:
         m,n=len(grid),len(grid[0])
         border,bfs,visited=set(),[(r0,c0)],{(r0,c0)}
         while bfs:
-            x,y=bfs.pop()
+            x,y=bfs.pop(0)
             for dx,dy in [(0,1),(0,-1),(-1,0),(1,0)]:
                 new_x,new_y=x+dx,y+dy
                 if 0<=new_x<m and 0<=new_y<n and grid[new_x][new_y]==grid[r0][c0]:
