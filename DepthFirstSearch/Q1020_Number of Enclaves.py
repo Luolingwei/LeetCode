@@ -1,3 +1,6 @@
+
+# 思路: 从边缘开始往内搜索，将能逃离的1标为0，最后剩下的即不能逃离的
+
 class Solution:
     def mark(self,board):
         def markStart(i,j):
