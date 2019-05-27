@@ -1,3 +1,6 @@
+
+# 思路: 移动窗口，寻找X长度的窗口能带来的最大的顾客数的提升.然后用本底数值加上maxGap即可.
+
 class Solution:
     def maxSatisfied(self, customers, grumpy, X):
         left,gap,maxGap=0,0,0
