@@ -3,12 +3,11 @@
 
 class Solution:
     def maxSatisfied(self, customers, grumpy, X):
-        left,gap,maxGap=0,0,0
-        for i in range(len(grumpy)):
-            gap+=customers[i]*grumpy[i]
-            if i-left>=X:
-                gap,left=gap-customers[left]*grumpy[left],left+1
-            maxGap=max(maxGap,gap)
+        window=maxGap=sum([customers[i]*grumpy[i] for i in range(X)])
+        for i in range(X,len(grumpy)):
+            window+=customers[i]*grumpy[i]
+            window-=customers[i-X]*grumpy[i-X]
+            maxGap=max(maxGap,window)
         return sum([customers[i]*abs(grumpy[i]-1) for i in range(len(customers))])+maxGap
 
 a=Solution()
