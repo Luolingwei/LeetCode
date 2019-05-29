@@ -1,3 +1,7 @@
+
+# 思路: if deque[0]==i-k: deque.pop(0) 保证整个window在k的范围内.
+# 每次进来一个新的元素，window中比它小的元素都可以pop，因为它们不可能成为max了,所以window中一直保持的是有用candidates的降序序列，ans每次加入window中的头部最大元素为作为max的值.
+
 class Solution:
     #solution1 one-line
     # def maxSlidingWindow(self, nums, k):
