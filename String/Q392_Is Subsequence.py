@@ -30,11 +30,8 @@ class Solution:
 
     # Solution 3 iterator
     def isSubsequence(self, s, t):
-        vals=iter(t)
-        for char in s:
-            if char not in vals:
-                return False
-        return True
+        it=iter(t)
+        return all(char in it for char in s)
 
 a=Solution()
 print(a.isSubsequence('abbbb','abcb'))
