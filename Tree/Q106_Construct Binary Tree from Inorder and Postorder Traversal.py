@@ -5,6 +5,8 @@
 #         self.left = None
 #         self.right = None
 
+# 思路:先在inorder中找出根节点的位置，然后先构建右子树，（因为postorder pop的过程中先pop右子树的根节点），再构建左子树
+
 class Solution:
     def buildTree(self, inorder, postorder):
         """
@@ -12,13 +14,12 @@ class Solution:
         :type postorder: List[int]
         :rtype: TreeNode
         """
-        if not inorder or not postorder:
-            return None
-        root=TreeNode(postorder[-1])
-        left=inorder.index(root.val)
-        root.left=self.buildTree(inorder[:left],postorder[:left])
-        root.right=self.buildTree(inorder[left+1:],postorder[left:-1])
-        return root
+        if inorder:
+            idx=inorder.index(postorder.pop())
+            root=TreeNode(inorder[idx])
+            root.right=self.buildTree(inorder[idx+1:],postorder)
+            root.left=self.buildTree(inorder[:idx],postorder)
+            return root
 
 a=Solution()
 print(a.buildTree([3,9,20,15,7],[9,3,15,20,7]))
