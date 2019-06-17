@@ -22,6 +22,9 @@ class Solution:
             for i in range(4):
                 if target[i]>=nums[pos]:
                     target[i]-=nums[pos]
+                    if 0<target[i]<nums[-1]:
+                        target[i]+=nums[pos]
+                        continue
                     if dfs(pos+1): return True
                     target[i]+=nums[pos]
             return False
