@@ -1,3 +1,9 @@
+# Input: values = [5,4,3,2,1], labels = [1,1,2,2,3], num_wanted = 3, use_limit = 1
+# Output: 9
+# Explanation: The subset chosen is the first, third, and fifth item.
+
+# 思路: 按value从大到小排序，并依次选择，如果某label已经到了limit，则往后挑选.直到选够num_wanted.
+
 import collections
 class Solution:
     def largestValsFromLabels(self, values, labels, num_wanted, use_limit):
