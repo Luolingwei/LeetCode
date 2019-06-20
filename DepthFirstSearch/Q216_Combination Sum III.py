@@ -5,19 +5,17 @@ class Solution(object):
         :type n: int
         :rtype: List[List[int]]
         """
-        ans=[]
-        self.dfs(k,n,[],ans,1)
-        return ans
-
-    def dfs(self,k,n,solution,ans,start):
-        if k==0 and n==0:
-            ans.append(solution[:])
-            return
-        else:
+        def dfs(k,n,path,start):
+            if k<=0 or n<=0:
+                if k==0 and n==0:ans.append(path[:])
+                else: return
             for i in range(start,10):
-                solution.append(i)
-                self.dfs(k-1,n-i,solution,ans,i+1)
-                solution.pop()
+                path.append(i)
+                dfs(k-1,n-i,path,i+1)
+                path.remove(i)
+        ans=[]
+        dfs(k,n,[],1)
+        return ans
 
 a=Solution()
 print(a.combinationSum3(3,9))
