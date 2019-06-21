@@ -2,14 +2,12 @@
 # values = [2.0, 3.0],
 # queries = [ ["a", "c"], ["b", "a"], ["a", "e"], ["a", "a"], ["x", "x"] ].
 
-# 思路:用defaultdict构建各个元素之间的网络关系,然后用dfs进行搜索
+# 思路1:用defaultdict构建各个元素之间的网络关系,然后用dfs进行搜索
 
 import collections
 class Solution:
     def calcEquation(self, equations, values, queries):
         def dfs(x,y,visited):
-            if x not in conn:
-                return -1.0
             if y in conn[x]:
                 return conn[x][y]
             visited.add(x)
