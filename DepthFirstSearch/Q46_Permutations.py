@@ -10,24 +10,22 @@ class Solution:
     #         ans=temp[:]
     #     return ans
 
-    #solution 2
+    #solution 2 iterative  52 ms
     # def permute(self, nums):
-    #     ans = [[]]
+    #     ans=[[]]
     #     for _ in range(len(nums)):
-    #         ans = [path + [num] for path in ans for num in nums if num not in path]
+    #         ans=[path+[i] for path in ans for i in nums if i not in path]
     #     return ans
 
-    #solution 3
-    def dfs(self,nums,path,ans):
-        if len(path)==len(nums):
-            ans.append(path)
-            return
-        for num in nums:
-            if num not in path:
-                self.dfs(nums,path+[num],ans)
+    #solution 3 dfs 48 ms
     def permute(self, nums):
-        ans=[]
-        self.dfs(nums,[],ans)
+        ans,N=[],len(nums)
+        def dfs(array,path):
+            if not array:
+                ans.append(path)
+            for i in range(len(array)):
+                dfs(array[:i]+array[i+1:],path+[array[i]])
+        dfs(nums,[])
         return ans
 
 a=Solution()

@@ -7,12 +7,10 @@ class Solution(object):
         """
         def dfs(k,n,path,start):
             if k<=0 or n<=0:
-                if k==0 and n==0:ans.append(path[:])
-                else: return
+                if k==0 and n==0:ans.append(path)
+                return
             for i in range(start,10):
-                path.append(i)
-                dfs(k-1,n-i,path,i+1)
-                path.remove(i)
+                dfs(k-1,n-i,path+[i],i+1)
         ans=[]
         dfs(k,n,[],1)
         return ans
@@ -20,3 +18,4 @@ class Solution(object):
 a=Solution()
 print(a.combinationSum3(3,9))
 print(a.combinationSum3(2,10))
+print(a.combinationSum3(5,15))
