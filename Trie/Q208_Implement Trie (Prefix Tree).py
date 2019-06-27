@@ -50,5 +50,3 @@ print(obj.search("app"))
 print(obj.startsWith("app"))
 print(obj.insert("app"))
 print(obj.search("app"))
-
-
