@@ -5,7 +5,7 @@
 #         self.left = None
 #         self.right = None
 
-# 每下降一层, 左边的pos=pos*2，右边的pos=pos*2+1
+# 每下降一层, 左边的pos=pos*2，右边的pos=pos*2+1. 遍历每一层获取最大width.
 
 class Solution:
     def widthOfBinaryTree(self, root):
