@@ -1,3 +1,5 @@
+import heapq
+import collections
 class Solution:
     def topKFrequent(self, nums, k):
         """
@@ -5,11 +7,10 @@ class Solution:
         :type k: int
         :rtype: List[int]
         """
-        dic={}
-        for num in nums:
-            dic[num]=dic.get(num,0)+1
-        ans=sorted(dic.items(),key=lambda d:d[1],reverse=True)
-        return [ans[i][0] for i in range(k)]
+        C,queue=collections.Counter(nums),[]
+        for n in C:
+            heapq.heappush(queue,(-C[n],n))
+        return [heapq.heappop(queue)[1] for _ in range(k)]
 
 a=Solution()
 print(a.topKFrequent([1,1,1,2,2,3],2))
