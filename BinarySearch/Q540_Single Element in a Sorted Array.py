@@ -1,7 +1,7 @@
 # Input: [1,1,2,3,3,4,4,8,8]
 # Output: 2
 
-# 思路: 二分查找，因为数组肯定是奇数个，而且单个数字肯定存在奇数的一半中，根据截取的array的长度奇偶和相等关系判断target落在的区间.
+# 思路: 二分查找，因为数组肯定是奇数个，而且单个数字肯定存在奇数的一半中，根据截取的array的长度奇偶 和 mid的相邻相等关系判断target落在的区间.
 
 class Solution:
     def singleNonDuplicate(self, nums):
