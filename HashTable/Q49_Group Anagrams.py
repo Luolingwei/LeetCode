@@ -1,20 +1,21 @@
+# Input: ["eat", "tea", "tan", "ate", "nat", "bat"],
+# Output:
+# [
+#   ["ate","eat","tea"],
+#   ["nat","tan"],
+#   ["bat"]
+# ]
+
+# 思路: 用字典存储同一个group的单词.
+
+import collections
 class Solution:
     def groupAnagrams(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: List[List[str]]
-        """
-        dic={}
-        ans=[]
+        memo=collections.defaultdict(list)
         for char in strs:
-            var=''.join(sorted(char))
-            if var not in dic.keys():
-                dic[var]=[char]
-            else:
-                dic[var].append(char)
-        for key, value in dic.items():
-            ans.append(value)
-        return ans
+            key=''.join(sorted(char))
+            memo[key].append(char)
+        return list(memo.values())
 
 a=Solution()
 print(a.groupAnagrams(["eat", "tea", "tan", "eat", "nat", "tan"]))
