@@ -7,14 +7,13 @@
 # Selling at prices[5] = 9
 # The total profit is ((8 - 1) - 2) + ((9 - 4) - 2) = 8.
 
-# 思路: 考虑到只有两种状态: 持有股票hold和不持有股票not_hold，更新两种状态的资产最大值，最后返回not_hold
+# 思路: 无限次交易，考虑到只有两种状态: hold（持有股票）,not_hold（不持有股票），最后返回not_hold的剩余资产即可
 
 class Solution:
     def maxProfit(self, prices, fee):
         hold,not_hold=float('-inf'),0
         for p in prices:
-            hold=max(hold,not_hold-p-fee)
-            not_hold=max(not_hold,hold+p)
+            hold,not_hold=max(hold,not_hold-p),max(not_hold,hold+p-fee)
         return not_hold
 
 a=Solution()
