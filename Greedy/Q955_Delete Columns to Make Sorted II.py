@@ -5,7 +5,6 @@
 
 # 思路: 用unsorted记录还未排好序的行，从第一列开始check，如果有前面的字母大于后面的unsorted，那么这一列需要删除, ans+=1. 否则保留这一列，较少unsorted.
 
-
 class Solution:
     def minDeletionSize(self, A):
         ans,m,n=0,len(A),len(A[0])
@@ -18,6 +17,6 @@ class Solution:
         return ans
 
 a=Solution()
-# print(a.minDeletionSize(["zyx","wvu","tsr"]))
+print(a.minDeletionSize(["zyx","wvu","tsr"]))
 print(a.minDeletionSize(["cad","bbx","aca"]))
 print(a.minDeletionSize(["zyx","wvu","tsr"]))
