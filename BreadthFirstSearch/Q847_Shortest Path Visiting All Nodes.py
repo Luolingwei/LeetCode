@@ -2,7 +2,7 @@
 # Output: 4
 # Explanation: One possible path is [1,0,2,0,3]
 
-# 思路: 用位运算符记录当前访问的状态，并用memo记录已经访问过的状态
+# 思路: 用位运算符记录当前visited的状态，并用memo记录已经访问过的相同状态(当前node和visited都相同)，减少bfs次数
 
 class Solution:
     def shortestPathLength(self, graph):
