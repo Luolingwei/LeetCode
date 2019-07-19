@@ -14,7 +14,7 @@ class Solution:
     #     head.next=None
     #     return new_head
 
-    # Solution 2 iterative
+    # Solution 2 iterative 
     def reverseList(self, head):
         pre=None
         while head:
