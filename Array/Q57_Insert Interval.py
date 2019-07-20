@@ -1,32 +1,19 @@
-# Definition for an interval.
-# class Interval:
-#     def __init__(self, s=0, e=0):
-#         self.start = s
-#         self.end = e
+# Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
+# Output: [[1,2],[3,10],[12,16]]
 
+# 思路: 将新interval用bisect按start插入，然后merge整个intervals
+
+import bisect
 class Solution:
-    def merge(self, intervals):
-        intervals.sort(key=lambda x: x.start)
-        merged = []
-        for x in intervals:
-            if merged == [] or merged[-1].end < x.start:
-                merged.append(x)
+    def insert(self, intervals, newInterval):
+        bisect.insort(intervals,newInterval)
+        merged=[]
+        for start,end in intervals:
+            if not merged or start>merged[-1][1]:
+                merged.append([start,end])
             else:
-                merged[-1].end = max(merged[-1].end, x.end)
+                merged[-1][1]=max(merged[-1][1],end)
         return merged
 
-    def insert(self, intervals, newInterval):
-        """
-        :type intervals: List[Interval]
-        :type newInterval: Interval
-        :rtype: List[Interval]
-        """
-        if len(intervals) == 0:
-            return [newInterval]
-        i = 0
-        while i < (len(intervals)):
-            if intervals[i].start > newInterval.start:
-                break
-            i += 1
-        intervals.insert(i, newInterval)
-        return self.merge(intervals)
+a=Solution()
+print(a.insert([[1,2],[3,5],[6,7],[8,10],[12,16]],[4,8]))
