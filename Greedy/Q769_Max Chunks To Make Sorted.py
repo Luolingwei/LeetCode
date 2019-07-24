@@ -17,9 +17,9 @@ class Solution:
     def maxChunksToSorted(self, arr):
         curMax,ans=-1,0
         for i,n in enumerate(arr):
-            curMax=max(n-1,curMax)
             if i>curMax:
                 ans+=1
+            curMax=max(n,curMax)
         return ans
 
 a=Solution()
