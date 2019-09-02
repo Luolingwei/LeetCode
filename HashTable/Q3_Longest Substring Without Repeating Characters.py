@@ -14,6 +14,7 @@ class Solution:
             maxl=max(maxl, i-left+1)
             dic[c]=i
         return maxl
+    
 
 a=Solution()
 print(a.lengthOfLongestSubstring("tmmzuxt"))
