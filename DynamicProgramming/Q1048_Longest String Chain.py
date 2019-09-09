@@ -2,14 +2,15 @@
 # Output: 4
 # Explanation: one of the longest word chain is "a","ba","bda","bdca".
 
-# 思路: dp, 将word以长度排序，用dic存储以之前所有word结尾的chain的最长长度，dp[word]=max(dp.get(word,1), dp.get(word减一个字母,0)+1)
+# 思路: dp, 将word以长度排序，用dic存储以之前所有word结尾的chain的最长长度，dp[word]=max(dp[word],dp[word[:i]+word[i+1:]]+1)
 
+from collections import defaultdict
 class Solution:
     def longestStrChain(self, words):
-        dp={}
+        dp=defaultdict(int)
         for word in sorted(words,key=len):
             for i in range(len(word)):
-                dp[word]=max(dp.get(word,1),dp.get(word[:i]+word[i+1:],0)+1)
+                dp[word]=max(dp[word],dp[word[:i]+word[i+1:]]+1)
         return max(dp.values() or [1])
 
 a=Solution()
