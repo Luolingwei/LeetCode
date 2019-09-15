@@ -8,20 +8,18 @@ class Solution:
         nums.sort()
         l,r=0,len(nums)-1
         mingap=float('inf')
-        n1,n2=0,0
+        n1,n2=-1,-1
         while l<r:
             v=nums[l]+nums[r]
-            if abs(v-target)<mingap:
-                mingap=abs(v-target)
-                n1,n2=nums[l],nums[r]
-            if v==target:
-                return [n1,n2]
-            elif v>target:
+            if v>target:
                 r-=1
             else:
+                if target-v<mingap:
+                    mingap=target-v
+                    n1,n2=nums[l],nums[r]
                 l+=1
         return [n1,n2]
 
 a=Solution()
 print((a.closest_two([1,6,4,2],2)))
-print(a.closest_two([6,4,0,29,5,5,1,2],19))
+print(a.closest_two([6,4,0,29,5,5,1,2],9))
