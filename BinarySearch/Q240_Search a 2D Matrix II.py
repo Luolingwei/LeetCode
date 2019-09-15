@@ -1,32 +1,27 @@
+# [
+#   [1,   4,  7, 11, 15],
+#   [2,   5,  8, 12, 19],
+#   [3,   6,  9, 16, 22],
+#   [10, 13, 14, 17, 24],
+#   [18, 21, 23, 26, 30]
+# ]
+#
+# Given target = 5, return true.
+# Given target = 20, return false.
+
+# 思路: 从左下角开始，如果target大于当前值，向右移（当前col都比target小），如果target小于当前值，向上移（当前row都比target大）
+
 class Solution:
-    def binary_search(self,list,target):
-        l,r=0,len(list)-1
-        while l<=r:
-            mid=(l+r)//2
-            if list[mid]==target:
-                return True
-            elif list[mid]<target:
-                l=mid+1
-            else:
-                r=mid-1
-        return False
     def searchMatrix(self, matrix, target):
-        """
-        :type matrix: List[List[int]]
-        :type target: int
-        :rtype: bool
-        """
-        if len(matrix)==0 or len(matrix[0])==0: return False
-        row,column=[],[]
-        for i in range(len(matrix)):
-            if matrix[i][0]<=target and matrix[i][-1]>=target:
-                row.append(i)
-        for j in range(len(matrix[0])):
-            if matrix[0][j]<=target and matrix[len(matrix)-1][j]>=target:
-                column.append(j)
-        for i in row:
-            if column and self.binary_search(matrix[i][column[0]:column[-1]+1],target):
-                return True
+        if not matrix: return False
+        m,n=len(matrix),len(matrix[0])
+        r,c=m-1,0
+        while r>=0 and c<n:
+            if matrix[r][c]==target: return True
+            elif matrix[r][c]>target:
+                r-=1
+            else:
+                c+=1
         return False
 
 a=Solution()
