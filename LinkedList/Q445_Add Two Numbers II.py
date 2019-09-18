@@ -4,24 +4,40 @@
 #         self.val = x
 #         self.next = None
 
+# 思路:先用stack或者number将两个数存起来，然后相加，最后构造LinkedList
+
 class Solution:
+    # Solution 1 stack 88 ms
+    # def addTwoNumbers(self, l1, l2):
+    #     def read(node):
+    #         stack=[]
+    #         while node:
+    #             stack.append(node.val)
+    #             node=node.next
+    #         return stack
+    #     s1,s2=read(l1),read(l2)
+    #     carry,head=0,ListNode(0)
+    #     while s1 or s2 or carry:
+    #         carry=carry+(s1 or [0]).pop()+(s2 or [0]).pop()
+    #         carry,remider=divmod(carry,10)
+    #         node=ListNode(remider)
+    #         node.next=head.next
+    #         head.next=node
+    #     return head.next
+
+    # Solution 2 number 80 ms
     def addTwoNumbers(self, l1, l2):
-        """
-        :type l1: ListNode
-        :type l2: ListNode
-        :rtype: ListNode
-        """
-        x1,x2,head=0,0,ListNode(0)
-        while l1:
-            x1=10*x1+l1.val
-            l1=l1.next
-        while l2:
-            x2=10*x2+l2.val
-            l2=l2.next
-        x=x1+x2
-        while x:
-            x,reminder=divmod(x,10)
-            head.next,head.next.next=ListNode(reminder),head.next
+        def read(node):
+            p=0
+            while node:
+                p=p*10+node.val
+                node=node.next
+            return p
+        p1,p2=read(l1),read(l2)
+        p,head=p1+p2,ListNode(0)
+        while p:
+            p,reminder=divmod(p,10)
+            node=ListNode(reminder)
+            node.next=head.next
+            head.next=node
         return head.next or head
-
-
