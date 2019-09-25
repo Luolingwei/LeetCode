@@ -1,6 +1,6 @@
 import heapq
 class Solution:
-    # solution1 selection_sort
+    # solution1 selection_sort O(kn)
     # def findKthLargest(self, nums, k):
     #     for i in range(len(nums)):
     #         max=i
@@ -36,7 +36,7 @@ class Solution:
     #     array[low], array[left] = array[left], array[low]
     #     return low
 
-    #solution 3 heapq
+    #solution 3 heapq O(n+klogn)
     def findKthLargest(self, nums, k):
         heap=nums[:]
         heapq.heapify(heap)
