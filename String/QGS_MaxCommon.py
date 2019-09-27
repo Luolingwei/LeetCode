@@ -21,5 +21,5 @@ class Solution:
 
 a=Solution()
 print(a.maxCommon("abcdecdefg"))
-print(a.maxCommon("aaaaaa"))
+print(a.maxCommon("aabbbbaa"))
 print(a.maxCommon("abcdedeara"))
