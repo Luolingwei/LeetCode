@@ -18,7 +18,7 @@ class Solution:
     # bfs
     def findMin(self,s,dict):
         bfs={"":[]}
-        while True:
+        while bfs:
             new_bfs={}
             for strs in bfs:
                 if strs==s: return bfs[strs]
@@ -26,9 +26,11 @@ class Solution:
                     if s[len(strs):len(strs)+len(word)]==word:
                         new_bfs[strs+word]=bfs[strs]+[word]
             bfs=new_bfs
+        return []
 
 
 a=Solution()
 print(a.findMin("bedbathandbeyand",["bed", "bath", "bat", "and", "hand", "bey", "beyand"]))
+print(a.findMin("catsandog",["cats", "dog", "sand", "and", "cat"]))
 print(a.findMin("aaaaa",["aa","a"]))
 print(a.findMin("aaaaaaaa",["a","aa","aaa","aaaa","aaaaa","aaaaaa"]))
