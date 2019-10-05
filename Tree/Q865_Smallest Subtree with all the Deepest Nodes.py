@@ -7,16 +7,16 @@
 
 class Solution:
     def subtreeWithAllDeepest(self, root):
-        def get_deepest(root):
-            level,pre=[root],[]
-            while level:
-                pre=level
-                level=[node for parent in level for node in (parent.left,parent.right) if node]
-            return pre
-        def get_root(deepest,root):
-            if root in deepest: return root
-            left,right=get_root(deepest,root.left),get_root(deepest,root.right)
-            if left and right: return root
-            else: return left or right
-        deepest=set(get_deepest(root)+[None])
-        return get_root(deepest,root)
+        def find(root):
+            if not root: return 0
+            return max(find(root.left), find(root.right)) + 1
+
+        def lowestcommon(root, level, deepest):
+            if not root or level == deepest:
+                return root
+            left = lowestcommon(root.left, level + 1, deepest)
+            right = lowestcommon(root.right, level + 1, deepest)
+            return root if (left and right) else (left or right)
+
+        deepest = find(root)
+        return lowestcommon(root, 1, deepest)
