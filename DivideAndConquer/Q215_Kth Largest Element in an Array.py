@@ -1,4 +1,5 @@
 import heapq
+from random import randint
 class Solution:
     # solution1 selection_sort O(kn)
     # def findKthLargest(self, nums, k):
@@ -10,7 +11,7 @@ class Solution:
     #         nums[max],nums[i]=nums[i],nums[max]
     #         if i==k-1: return nums[i]
 
-    # solution2 quick_sort
+    # solution2 quick_sort Time: n+n/2+n/4+...+1=2n-1=O(n) Space: O(1)
     def findKthLargest(self, nums, k):
         index = self.partition(nums)
         if len(nums) - index > k:
@@ -22,9 +23,11 @@ class Solution:
 
     def partition(self, nums):
         low, high = 0, len(nums) - 1
-        key = nums[high]
+        rdx=randint(low,high) #随机选择key random QS
+        key=nums[rdx]
+        nums[high],nums[rdx]=nums[rdx],nums[high]
         i = -1
-        for j in range(high + 1):
+        for j in range(high):
             if nums[j] < key:
                 i += 1
                 nums[i], nums[j] = nums[j], nums[i]
