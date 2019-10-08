@@ -10,17 +10,15 @@ class Solution:
                     memo.add(number)
                     stack.append(number)
             else:
-                if not stack:
-                    return i+1
-                number2=stack.pop()
-                memo.remove(number2)
-                if number!=number2:
+                if stack and stack[-1] == number:
+                    memo.remove(stack.pop())
+                else:
                     return i+1
         return len(strings)+1 if stack else 0
 
 a=Solution()
 print(a.analyze([]))
-print(a.analyze(["ACQUIRE 364"]))
+print(a.analyze(["ACQUIRE 364","RELEASE 364"]))
 print(a.analyze(["RELEASE 364"]))
 print(a.analyze(["ACQUIRE 364","ACQUIRE 84","RELEASE 84","RELEASE 364"]))
 print(a.analyze(["ACQUIRE 364","ACQUIRE 84","RELEASE 364","RELEASE 84"]))

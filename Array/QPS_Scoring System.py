@@ -5,13 +5,13 @@ class Solution:
         def r2(n):
             count,ans=0,0
             for c in str(n):
-                if count>0 and count%2==0:
-                    ans+=count//2
                 if c=='2':
                     count+=1
                 else:
                     count=0
-            return ans*6
+                if count>= 2:
+                    ans+=6
+            return ans
         def r3(n):
             stack=[]
             for i in str(n):
@@ -29,3 +29,4 @@ class Solution:
 
 a=Solution()
 print(a.score(765))
+print(a.score(2222))
