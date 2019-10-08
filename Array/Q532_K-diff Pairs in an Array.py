@@ -1,25 +1,19 @@
+
+# 思路:去重后寻找n+difference是否存在，k=0时需要计算>=2个数的n的个数
+
 import collections
 class Solution:
     def findPairs(self, nums, k):
-        """
-        :type nums: List[int]
-        :type k: int
-        :rtype: int
-        """
-        count=0
-        if k<0:
-            return 0
+        if k<0: return 0
         if k==0:
-            counter=collections.Counter(nums)
-            for key,value in counter.items():
-                if value>=2:
-                    count+=1
-            return count
-        nums=set(nums)
-        for num in nums:
-            if num+k in nums:
-                count+=1
-        return count
+            c=collections.Counter(nums)
+            return len([n for n in c if c[n]>=2])
+        ans=0
+        memo=set(nums)
+        for n in memo:
+            if n+k in memo:
+                ans+=1
+        return ans
 
 a=Solution()
 print(a.findPairs([3, 1, 4, 1, 5],2))
