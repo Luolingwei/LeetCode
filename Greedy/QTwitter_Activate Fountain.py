@@ -9,7 +9,7 @@ class Solution:
         for i in range(L):
             l,r=max(0,i-limits[i]),min(L-1,i+limits[i])
             intervals[l]=max(intervals[l],r)
-        intervals=sorted([(l,intervals[l]) for l in intervals])
+        intervals=sorted(intervals.items())
         cur,end,ans=0,intervals[0][1],1
         while end<L-1:
             curMax=0
