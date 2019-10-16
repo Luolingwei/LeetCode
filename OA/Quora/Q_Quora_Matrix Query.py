@@ -2,29 +2,22 @@ class Solution:
 
     def __init__(self,matrix):
         self.m,self.n=len(matrix),len(matrix[0])
-        self.rows,self.cols=[1]*self.m,[1]*self.n
+        self.disrows=set()
+        self.discols=set()
+        self.row=self.col=0
 
     def query(self):
-        i,j=0,0
-        ansi,ansj=None,None
-        while i<self.m:
-            if self.rows[i]:
-                ansi=i
-                break
-            i+=1
-        while j<self.n:
-            if self.cols[j]:
-                ansj=j
-                break
-            j+=1
-        return (ansi+1)*(ansj+1)
-
+        return (self.row+1)*(self.col+1)
 
     def disrow(self,i):
-        self.rows[i-1]=0
+        self.disrows.add(i-1)
+        while self.row in self.disrows:
+            self.row+=1
 
     def discol(self,j):
-        self.cols[j-1]=0
+        self.discols.add(j-1)
+        while self.col in self.discols:
+            self.col+=1
 
 
 a=Solution(matrix=[[1,2,3],[4,5,6],[7,8,9]])

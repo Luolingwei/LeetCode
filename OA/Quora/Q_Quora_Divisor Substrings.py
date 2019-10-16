@@ -1,13 +1,12 @@
 class Solution:
     def divide(self,n,k):
         s,ans=str(n),set()
-        window=s[:k]
-        if n%int(window)==0: ans.add(window)
-        for i in range(k,len(s)):
-            window=window[1:]
-            window+=s[i]
+        r=k
+        while r<=len(s):
+            window=s[r-k:r]
             if window[0]!='0' and n%int(window)==0:
                 ans.add(window)
+            r+=1
         return len(ans)
 
 a=Solution()
