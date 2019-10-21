@@ -12,6 +12,7 @@
 
 # 思路: 从以每个字母开头进行i卡
 
+import collections
 class Solution:
 
     # 1: 长度不固定，计算distinct 字母=k的子串个数
@@ -31,14 +32,22 @@ class Solution:
 
     # 2: 长度固定，长度=k，distinct 字母=k-1
     # def count(self,S,k):
-    #     N,res=len(S),0
-    #     for i in range(N-k+1):
-    #         if len(set(S[i:i+k]))==k-1:
-    #             res+=1
-    #     return res
+    #     N,window=len(S),collections.Counter(S[:k])
+    #     distinct,ans=len(window.keys()),0
+    #     if distinct==k-1: ans+=1
+    #     for i in range(k,N):
+    #         if S[i] not in window:
+    #             distinct+=1
+    #         window[S[i]]+=1
+    #         window[S[i-k]]-=1
+    #         if not window[S[i-k]]:
+    #             distinct-=1
+    #         if distinct==k-1:
+    #             ans+=1
+    #     return ans
 
 
 a=Solution()
-print(a.count("abc",2))
+print(a.count("aabc",2))
 print(a.count("aba",2))
-print(a.count("aa",1))
+print(a.count("aa",2))

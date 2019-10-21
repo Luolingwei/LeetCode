@@ -12,7 +12,7 @@ class Solution:
             curS,count=0,0
             for _ in range(5):
                 if dic[id]:
-                    curS+=-heapq.heappop(dic[id])
+                    curS-=heapq.heappop(dic[id])
                     count+=1
                 else:
                     break
