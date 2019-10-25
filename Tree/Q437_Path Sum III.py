@@ -26,15 +26,15 @@
 
 class Solution:
     def pathSum(self, root, sum):
-        self.count=0
-        pathdic={0:1}
-        def dfs(root,pathdic,sum,pathsum):
-            if root:
-                pathsum+=root.val
-                self.count+=pathdic.get(pathsum-sum,0)
-                pathdic[pathsum]=pathdic.get(pathsum,0)+1
-                dfs(root.left,pathdic,sum,pathsum)
-                dfs(root.right,pathdic,sum,pathsum)
-                pathdic[pathsum]-=1 #root节点已遍历完毕，将转移到root节点的右边相邻节点进行遍历，所以要清除该root节点的pathsum
-        dfs(root,pathdic,sum,0)
-        return self.count
+        self.ans=0
+        memo={0:1}
+        def dfs(node,curS):
+            if node:
+                curS+=node.val
+                self.ans+=memo.get(curS-sum,0)
+                memo[curS]=memo.get(curS,0)+1
+                dfs(node.left,curS)
+                dfs(node.right,curS)
+                memo[curS]-=1  #root节点已遍历完毕，将转移到root节点的右边相邻节点进行遍历，所以要清除该root节点的pathsum
+        dfs(root,0)
+        return self.ans
