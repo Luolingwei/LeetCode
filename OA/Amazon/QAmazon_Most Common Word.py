@@ -16,3 +16,5 @@ class Solution:
 
 a=Solution()
 print(a.mostCommonWord("jack and jill went to market to buy bread and cheese cheese is jack favorite food",["and","he","the","to","is"]))
+print(a.mostCommonWord("   ",["and","he","the","to","is"]))
+print(a.mostCommonWord("",["and","he","the","to","is"]))

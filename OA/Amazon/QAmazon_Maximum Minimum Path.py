@@ -10,7 +10,8 @@
 
 class Solution:
     def Maxmin(self,matrix):
-        m,n=len(matrix),len(matrix[0])
+        m,n=len(matrix),len(matrix and matrix[0])
+        if not m or not n: return -1
         for i in range(m):
             for j in range(n):
                 if i+j==0: continue
@@ -22,3 +23,6 @@ class Solution:
 
 a=Solution()
 print(a.Maxmin([[8, 4, 7],[6, 5, 9]]))
+print(a.Maxmin([[8,4,7]]))
+print(a.Maxmin([[8],[4],[7]]))
+print(a.Maxmin([[],[],[]]))
