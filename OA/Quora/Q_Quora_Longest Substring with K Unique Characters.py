@@ -3,7 +3,7 @@
 
 import collections
 class Solution:
-    def find(self,S,k):
+    def lengthOfLongestSubstringKDistinct(self,S,k):
         count=collections.Counter()
         left,distinct,res=0,0,0
         for i,char in enumerate(S):
@@ -18,11 +18,11 @@ class Solution:
                     left+=1
                     if not count[dropC]:
                         distinct-=1
-        res=max(res,i-left+1)
+        res=max(res,len(S)-left)
         return res
 
 a=Solution()
-print(a.find("abydeiffioc",2))
-print(a.find("aaaaaabbbbbb",2))
-print(a.find("aaaaaacbbbbbbbccc",2))
-print(a.find("aaaaaacbbcbbbbccc",1))
+print(a.lengthOfLongestSubstringKDistinct("abydeiffioc",2))
+print(a.lengthOfLongestSubstringKDistinct("aaaaaabbbbbb",2))
+print(a.lengthOfLongestSubstringKDistinct("aaaaaacbbbbbbbccc",2))
+print(a.lengthOfLongestSubstringKDistinct("aaaaaacbbcbbbbccc",1))
