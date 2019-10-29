@@ -24,103 +24,103 @@ class Company:
 
 class MarkingPositionMonitor:
     def __init__(self):
-        self.company_dict = {}
-        self.order_dict = {}
+        self.companies = {}
+        self.orders = {}
 
     def on_event(self, message):
-        m_dict = json.loads(message)
+        event = json.loads(message)
 
-        if m_dict["type"] == "NEW":
-            company_name = m_dict["symbol"]
-            order_id = m_dict["order_id"]
-            self.order_dict[order_id] = m_dict
+        if event["type"] == "NEW":
+            company_name = event["symbol"]
+            order_id = event["order_id"]
+            self.orders[order_id] = event
             # create company instance in dict if not exist.
-            if company_name not in self.company_dict:
-                self.company_dict[company_name] = Company(company_name)
+            if company_name not in self.companies:
+                self.companies[company_name] = Company(company_name)
             # immediately change the quantity.
-            if m_dict["side"] == "SELL":
-                self.company_dict[company_name].sell += int(m_dict["quantity"])
+            if event["side"] == "SELL":
+                self.companies[company_name].sell += int(event["quantity"])
             # new order to buy does not affect marking postion.
-            if m_dict["side"] == "BUY":
-                self.company_dict[company_name].buy += int(m_dict["quantity"])
-            return self.company_dict[company_name].own - self.company_dict[company_name].sell
+            if event["side"] == "BUY":
+                self.companies[company_name].buy += int(event["quantity"])
+            return self.companies[company_name].own - self.companies[company_name].sell
 
-        if m_dict["type"] == "ORDER_REJECT":
+        if event["type"] == "ORDER_REJECT":
             # read the history order message detail from order_id
-            order_id = m_dict["order_id"]
-            order_detail = self.order_dict[order_id]
+            order_id = event["order_id"]
+            order_detail = self.orders[order_id]
             company_name = order_detail["symbol"]
             if order_detail["type"] == "NEW":
                 # immediately change sell quantity
                 if order_detail["side"] == "SELL":
-                    self.company_dict[company_name].sell -= int(order_detail["quantity"])
+                    self.companies[company_name].sell -= int(order_detail["quantity"])
                 if order_detail["side"] == "BUY":
-                    self.company_dict[company_name].buy -= int(order_detail["quantity"])
-            return self.company_dict[company_name].own - self.company_dict[company_name].sell
+                    self.companies[company_name].buy -= int(order_detail["quantity"])
+            return self.companies[company_name].own - self.companies[company_name].sell
 
-        if m_dict["type"] == "ORDER_ACK":
-            order_id = m_dict["order_id"]
-            order_detail = self.order_dict[order_id]
+        if event["type"] == "ORDER_ACK":
+            order_id = event["order_id"]
+            order_detail = self.orders[order_id]
             company_name = order_detail["symbol"]
             # acknowledge order, no further action need to take though.
             if order_detail["side"] == "SELL":
                 pass
             if order_detail["side"] == "BUY":
                 pass
-            return self.company_dict[company_name].own - self.company_dict[company_name].sell
+            return self.companies[company_name].own - self.companies[company_name].sell
 
-        if m_dict["type"] == "CANCEL":
+        if event["type"] == "CANCEL":
             # try to cancel stated; no immediate effect.
-            order_id = m_dict["order_id"]
-            order_detail = self.order_dict[order_id]
+            order_id = event["order_id"]
+            order_detail = self.orders[order_id]
             company_name = order_detail["symbol"]
             if order_detail["type"] == "NEW":
                 if order_detail["side"] == "SELL":
                     pass
                 if order_detail["side"] == "BUY":
                     pass
-                return self.company_dict[company_name].own - self.company_dict[company_name].sell
+                return self.companies[company_name].own - self.companies[company_name].sell
 
-        if m_dict["type"] == "CANCEL_ACK":
+        if event["type"] == "CANCEL_ACK":
             # cancellation acknowledged; the order is no longer in the market; immediate effect.
-            order_id = m_dict["order_id"]
-            order_detail = self.order_dict[order_id]
+            order_id = event["order_id"]
+            order_detail = self.orders[order_id]
             company_name = order_detail["symbol"]
             if order_detail["type"] == "NEW":
                 # immediately change the quantity; immediate effect.
                 if order_detail["side"] == "SELL":
-                    self.company_dict[company_name].sell -= int(order_detail["quantity"])
+                    self.companies[company_name].sell -= int(order_detail["quantity"])
                 if order_detail["side"] == "BUY":
-                    self.company_dict[company_name].buy -= int(order_detail["quantity"])
-                return self.company_dict[company_name].own - self.company_dict[company_name].sell
+                    self.companies[company_name].buy -= int(order_detail["quantity"])
+                return self.companies[company_name].own - self.companies[company_name].sell
 
-        if m_dict["type"] == "CANCEL_REJECT":
+        if event["type"] == "CANCEL_REJECT":
             # reject cancellation; no effect.
-            order_id = m_dict["order_id"]
-            order_detail = self.order_dict[order_id]
+            order_id = event["order_id"]
+            order_detail = self.orders[order_id]
             company_name = order_detail["symbol"]
             if order_detail["type"] == "NEW":
                 if order_detail["side"] == "SELL":
                     pass
                 if order_detail["side"] == "BUY":
                     pass
-                return self.company_dict[company_name].own - self.company_dict[company_name].sell
+                return self.companies[company_name].own - self.companies[company_name].sell
 
-        if m_dict["type"] == "FILL":
-            order_id = m_dict["order_id"]
-            order_detail = self.order_dict[order_id]
+        if event["type"] == "FILL":
+            order_id = event["order_id"]
+            order_detail = self.orders[order_id]
             company_name = order_detail["symbol"]
             if order_detail["type"] == "NEW":
                 if "filled_quantity" not in order_detail:
                     order_detail["filled_quantity"] = 0
                 if order_detail["side"] == "SELL":
-                    order_detail["filled_quantity"] = m_dict["filled_quantity"]
+                    order_detail["filled_quantity"] = event["filled_quantity"]
                 if order_detail["side"] == "BUY":
-                    self.company_dict[company_name].own -= order_detail["filled_quantity"] #  minus bought quantity from this order
-                    order_detail["filled_quantity"] = m_dict["filled_quantity"]
-                    self.company_dict[company_name].own += order_detail["filled_quantity"] # add current bought quantity from this order
+                    self.companies[company_name].own -= order_detail["filled_quantity"] #  minus bought quantity from this order
+                    order_detail["filled_quantity"] = event["filled_quantity"]
+                    self.companies[company_name].own += order_detail["filled_quantity"] # add current bought quantity from this order
 
-                return self.company_dict[company_name].own - self.company_dict[company_name].sell
+                return self.companies[company_name].own - self.companies[company_name].sell
 
         return 0 # return 0 for not handled operations
 
