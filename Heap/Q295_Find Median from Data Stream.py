@@ -1,6 +1,6 @@
 
-# 思路: 用两个heap分别存储数据流大的一半(large)和小的一半(small)，其中小的一半的heap以负数存储，这样就可以在求median的时候直接取large和small的最小数字了。
-# 为了保证large和small的size差距不超过1，每次新进一个数字的时候先用heappushpop操作large，然后pop出的最小数导入small，如果small的size超过了large，将samll的最小数（负的最多）放回large中.
+# 思路: 维护一个large heap和一个small heap， 每次加入num时保证从large中pop出最小的放到small中
+# 为了让large和small的size最大相差1, 当small>large时，把small的元素往large转
 
 from heapq import *
 class MedianFinder:
