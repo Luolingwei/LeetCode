@@ -1,3 +1,6 @@
+
+# 思路: 考虑左边和右边的最大正方形，取min，然后还要左上角填充，故取三者的最小值+1作为以当前元素作为右下角的最大正方形边长
+
 class Solution:
     def maximalSquare(self, matrix):
         for i in range(len(matrix)):
