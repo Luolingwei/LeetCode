@@ -2,14 +2,18 @@
 # Target: 1
 # Output: [6,5,3,4,2,1]
 
+# 拓扑排序dfs
+
 class Solution:
     def search(self,dic,target):
         self.ans=[]
+        visited=set()
         def dfs(node):
             for relied in dic[node]:
-                if relied not in self.ans:
+                if relied not in visited:
                     dfs(relied)
             self.ans+=[node]
+            visited.add(node)
         dfs(target)
         return self.ans
 

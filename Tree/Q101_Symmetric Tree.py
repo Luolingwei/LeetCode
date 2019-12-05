@@ -7,16 +7,16 @@
 
 class Solution:
     # Solution 1 recursive
-    # def helper(self,l,r):
-    #     if l and r:
-    #         return l.val==r.val and self.helper(l.left,r.right) and self.helper(l.right,r.left)
-    #     else:
-    #         return l==r
+    # class Solution:
+    #     def isSymmetric(self, root):
+    #         def check(tree1, tree2):
+    #             if not tree1 or not tree2:
+    #                 return tree1 == tree2
+    #             return tree1.val == tree2.val and check(tree1.left, tree2.right) and check(tree1.right, tree2.left)
     #
-    # def isSymmetric(self, root):
-    #     if not root:
-    #         return True
-    #     return self.helper(root.left,root.right)
+    #         if not root:
+    #             return True
+    #         return check(root.left, root.right)
 
    # Solution 2 iterative
     def isSymmetric(self, root):
