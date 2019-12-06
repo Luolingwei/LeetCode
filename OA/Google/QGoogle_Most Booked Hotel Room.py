@@ -9,4 +9,5 @@ class Solution:
 
 a=Solution()
 print(a.maxfreq(["+1A", "+3E", "-1A", "+4F", "+1A", "-3E"]))
-print(a.maxfreq(["+1A", "+3E", "-1A", "+4F", "+1A", "+3E", "+3E"]))
+print(a.maxfreq(["+1A", "+0B", "-1A", "+4F", "+1A", "+0B"]))
+print(a.maxfreq(["+1A", "-1A", "+1B", "+1A", "-1B", "+1B"]))
