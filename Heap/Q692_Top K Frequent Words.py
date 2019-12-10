@@ -9,17 +9,17 @@
 import collections
 import heapq
 class Solution:
-    # Solution 1 Counter
+    # Solution 1 Counter O(nlogn)
     # def topKFrequent(self, words, k):
     #     dic=collections.Counter(words)
     #     return sorted(dic,key=lambda x: (-dic[x],x))[:k]
 
-    # Solution 2 Heap
+    # Solution 2 Heap O(klogn)
     def topKFrequent(self, words, k):
-        dic,queue=collections.Counter(words),[]
-        for word, freq in dic.items():
-            heapq.heappush(queue,(-freq,word))
-        return [heapq.heappop(queue)[1] for _ in range(k)]
+        count = collections.Counter(words)
+        q = [(-n, word) for word, n in count.items()]
+        heapq.heapify(q)
+        return [heapq.heappop(q)[1] for _ in range(k)]
 
 a=Solution()
 print(a.topKFrequent(["i", "love", "leetcode", "i", "love", "coding"],2))
