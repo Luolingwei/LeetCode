@@ -11,20 +11,15 @@
 # Input: pre=[2,1]，post=[1,2]
 # Output: [2,1]
 
-# 对于post，左右中，3一定是右子树的根节点，在pre中找，区分左右子树，同理，2一定是左子树的根节点，在post中找，区分左右子树
-# 默认左右子树都存在，只存在一个要单独考虑，会导致左右子树区分反，程序出错
-# 只存在一个left或right时，仍然有pre[0]=post[last]，此时将子树置为左子树或右子树都ok
+# 根据第二个数，即左子树的根节点来划分左右子树的元素
 
 class Solution:
     def constructFromPrePost(self, pre, post):
+        if not pre: return None
+        root=TreeNode(pre.pop(0))
+        post.pop()
         if pre:
-            root=TreeNode(post.pop())
-            pre.pop(0)
-            if pre:
-                if pre[0]==post[-1]:
-                    root.left=self.constructFromPrePost(pre,post)
-                else:
-                    l,r=pre.index(post[-1]),post.index(pre[0])
-                    root.left=self.constructFromPrePost(pre[:l],post[:r+1])
-                    root.right=self.constructFromPrePost(pre[l:],post[r+1:])
-            return root
+            idx=post.index(pre[0])
+            root.left=self.constructFromPrePost(pre[:idx+1],post[:idx+1])
+            root.right=self.constructFromPrePost(pre[idx+1:],post[idx+1:])
+        return root
