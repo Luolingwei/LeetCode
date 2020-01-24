@@ -40,10 +40,10 @@ class Solution:
     #     return ans if ans != float('inf') else -1
 
 
-    # 思路2 880ms
+    # 思路2 660 ms
     def shortestDistance(self, grid):
         m, n = len(grid), len(grid[0])
-        memo = [[None] * n for _ in range(m)]
+        memo = [[[] for _ in range(n)] for _ in range(m)]
         building, ans = 0, float('inf')
 
         def bfs(i, j):
@@ -57,10 +57,7 @@ class Solution:
                     if 0 <= newx < m and 0 <= newy < n and not visited[newx][newy]:
                         if grid[newx][newy] == 0:
                             q.append((newx, newy, dist + 1))
-                            if not memo[newx][newy]:
-                                memo[newx][newy] = [dist + 1]
-                            else:
-                                memo[newx][newy].append(dist + 1)
+                            memo[newx][newy].append(dist + 1)
                         visited[newx][newy] = 1
 
         for i in range(m):
@@ -72,7 +69,7 @@ class Solution:
         for i in range(m):
             for j in range(n):
                 if grid[i][j] == 0:
-                    if memo[i][j] and len(memo[i][j]) == building:
+                    if len(memo[i][j]) == building:
                         ans = min(ans, sum(memo[i][j]))
         return ans if ans != float('inf') else -1
 
