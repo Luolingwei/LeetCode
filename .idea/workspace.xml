@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac315eb-5f1f-46f7-97e3-6e9ed1081f9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/Q1380_Lucky Numbers in a Matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/Q1381_Design a Stack With Increment Operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/Q1383_Maximum Performance of a Team.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Q1382_Balance a Binary Search Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DepthFirstSearch/Q1391_Check if There is a Valid Path in a Grid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Q1383_Maximum Performance of a Team">
+  <component name="RunManager" selected="Python.Q1391_Check if There is a Valid Path in a Grid">
     <configuration name="Q1380_Lucky Numbers in a Matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Q567_Permutation in String" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Q1391_Check if There is a Valid Path in a Grid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +129,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SlideWindow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DepthFirstSearch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SlideWindow/Q567_Permutation in String.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DepthFirstSearch/Q1391_Check if There is a Valid Path in a Grid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,19 +164,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Q567_Permutation in String" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.Q1380_Lucky Numbers in a Matrix" />
       <item itemvalue="Python.Q1381_Design a Stack With Increment Operation" />
       <item itemvalue="Python.Q1383_Maximum Performance of a Team" />
+      <item itemvalue="Python.Q1391_Check if There is a Valid Path in a Grid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Q1391_Check if There is a Valid Path in a Grid" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.Q1383_Maximum Performance of a Team" />
         <item itemvalue="Python.Q1381_Design a Stack With Increment Operation" />
         <item itemvalue="Python.Q1380_Lucky Numbers in a Matrix" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Q567_Permutation in String" />
       </list>
     </recent_temporary>
   </component>
@@ -200,57 +197,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="334" key="GridCell.Tab.0.bottom" timestamp="1584286433670">
+    <state width="1899" height="196" key="GridCell.Tab.0.bottom" timestamp="1584850857948">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581829948727" />
     <state width="1419" height="186" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1581038223175" />
-    <state width="1899" height="334" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1584286433670" />
+    <state width="1899" height="196" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1584850857948" />
     <state width="1899" height="338" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="334" key="GridCell.Tab.0.center" timestamp="1584286433669">
+    <state width="1899" height="196" key="GridCell.Tab.0.center" timestamp="1584850857947">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1581829948726" />
     <state width="1419" height="186" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
-    <state width="1899" height="334" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1584286433669" />
+    <state width="1899" height="196" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1584850857947" />
     <state width="1899" height="338" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1582307941724" />
-    <state width="1899" height="334" key="GridCell.Tab.0.left" timestamp="1584286433669">
+    <state width="1899" height="196" key="GridCell.Tab.0.left" timestamp="1584850857947">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1581829948725" />
     <state width="1419" height="186" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
-    <state width="1899" height="334" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1584286433669" />
+    <state width="1899" height="196" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1584850857947" />
     <state width="1899" height="338" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1582307941724" />
-    <state width="1899" height="334" key="GridCell.Tab.0.right" timestamp="1584286433669">
+    <state width="1899" height="196" key="GridCell.Tab.0.right" timestamp="1584850857947">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1581829948726" />
     <state width="1419" height="186" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
-    <state width="1899" height="334" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1584286433669" />
+    <state width="1899" height="196" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1584850857947" />
     <state width="1899" height="338" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="334" key="GridCell.Tab.1.bottom" timestamp="1584286433671">
+    <state width="1899" height="334" key="GridCell.Tab.1.bottom" timestamp="1584850857940">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="334" key="GridCell.Tab.1.bottom/0.23.1920.969@0.23.1920.969" timestamp="1584286433671" />
+    <state width="1899" height="334" key="GridCell.Tab.1.bottom/0.23.1920.969@0.23.1920.969" timestamp="1584850857940" />
     <state width="1899" height="338" key="GridCell.Tab.1.bottom/0.23.1920.977@0.23.1920.977" timestamp="1582307941726" />
-    <state width="1899" height="334" key="GridCell.Tab.1.center" timestamp="1584286433670">
+    <state width="1899" height="334" key="GridCell.Tab.1.center" timestamp="1584850857939">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="334" key="GridCell.Tab.1.center/0.23.1920.969@0.23.1920.969" timestamp="1584286433670" />
+    <state width="1899" height="334" key="GridCell.Tab.1.center/0.23.1920.969@0.23.1920.969" timestamp="1584850857939" />
     <state width="1899" height="338" key="GridCell.Tab.1.center/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="334" key="GridCell.Tab.1.left" timestamp="1584286433670">
+    <state width="1899" height="334" key="GridCell.Tab.1.left" timestamp="1584850857939">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="334" key="GridCell.Tab.1.left/0.23.1920.969@0.23.1920.969" timestamp="1584286433670" />
+    <state width="1899" height="334" key="GridCell.Tab.1.left/0.23.1920.969@0.23.1920.969" timestamp="1584850857939" />
     <state width="1899" height="338" key="GridCell.Tab.1.left/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="334" key="GridCell.Tab.1.right" timestamp="1584286433670">
+    <state width="1899" height="334" key="GridCell.Tab.1.right" timestamp="1584850857940">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="334" key="GridCell.Tab.1.right/0.23.1920.969@0.23.1920.969" timestamp="1584286433670" />
+    <state width="1899" height="334" key="GridCell.Tab.1.right/0.23.1920.969@0.23.1920.969" timestamp="1584850857940" />
     <state width="1899" height="338" key="GridCell.Tab.1.right/0.23.1920.977@0.23.1920.977" timestamp="1582307941726" />
     <state x="229" y="62" key="SettingsEditor" timestamp="1581038206532">
       <screen x="0" y="23" width="1440" height="801" />
@@ -270,9 +267,10 @@
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state x="640" y="143" width="639" height="729" key="find.popup/0.23.1920.969@0.23.1920.969" timestamp="1584240611533" />
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1581829041887">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="513" y="170" width="894" height="822" key="search.everywhere.popup" timestamp="1584900093248">
+      <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1581829041887" />
+    <state x="513" y="170" width="894" height="822" key="search.everywhere.popup/0.23.1920.969@0.23.1920.969" timestamp="1584900093248" />
   </component>
 </project>
