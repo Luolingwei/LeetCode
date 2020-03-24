@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac315eb-5f1f-46f7-97e3-6e9ed1081f9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DepthFirstSearch/Q1391_Check if There is a Valid Path in a Grid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/Q1390_Four Divisors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/Q1392_Longest Happy Prefix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,28 +58,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Q1391_Check if There is a Valid Path in a Grid">
-    <configuration name="Q1380_Lucky Numbers in a Matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q1380_Lucky Numbers in a Matrix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Q1392_Longest Happy Prefix">
     <configuration name="Q1381_Design a Stack With Increment Operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,6 +122,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Q1392_Longest Happy Prefix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/Q1392_Longest Happy Prefix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,18 +166,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.Q1380_Lucky Numbers in a Matrix" />
       <item itemvalue="Python.Q1381_Design a Stack With Increment Operation" />
       <item itemvalue="Python.Q1383_Maximum Performance of a Team" />
       <item itemvalue="Python.Q1391_Check if There is a Valid Path in a Grid" />
+      <item itemvalue="Python.Q1392_Longest Happy Prefix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Q1392_Longest Happy Prefix" />
         <item itemvalue="Python.Q1391_Check if There is a Valid Path in a Grid" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.Q1383_Maximum Performance of a Team" />
         <item itemvalue="Python.Q1381_Design a Stack With Increment Operation" />
-        <item itemvalue="Python.Q1380_Lucky Numbers in a Matrix" />
       </list>
     </recent_temporary>
   </component>
@@ -197,57 +198,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="196" key="GridCell.Tab.0.bottom" timestamp="1584850857948">
+    <state width="1899" height="482" key="GridCell.Tab.0.bottom" timestamp="1584908342893">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581829948727" />
     <state width="1419" height="186" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1581038223175" />
-    <state width="1899" height="196" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1584850857948" />
+    <state width="1899" height="482" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1584908342893" />
     <state width="1899" height="338" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="196" key="GridCell.Tab.0.center" timestamp="1584850857947">
+    <state width="1899" height="482" key="GridCell.Tab.0.center" timestamp="1584908342892">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1581829948726" />
     <state width="1419" height="186" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
-    <state width="1899" height="196" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1584850857947" />
+    <state width="1899" height="482" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1584908342892" />
     <state width="1899" height="338" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1582307941724" />
-    <state width="1899" height="196" key="GridCell.Tab.0.left" timestamp="1584850857947">
+    <state width="1899" height="482" key="GridCell.Tab.0.left" timestamp="1584908342891">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1581829948725" />
     <state width="1419" height="186" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
-    <state width="1899" height="196" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1584850857947" />
+    <state width="1899" height="482" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1584908342891" />
     <state width="1899" height="338" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1582307941724" />
-    <state width="1899" height="196" key="GridCell.Tab.0.right" timestamp="1584850857947">
+    <state width="1899" height="482" key="GridCell.Tab.0.right" timestamp="1584908342892">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1581829948726" />
     <state width="1419" height="186" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
-    <state width="1899" height="196" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1584850857947" />
+    <state width="1899" height="482" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1584908342892" />
     <state width="1899" height="338" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="334" key="GridCell.Tab.1.bottom" timestamp="1584850857940">
+    <state width="1899" height="482" key="GridCell.Tab.1.bottom" timestamp="1584908342894">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="334" key="GridCell.Tab.1.bottom/0.23.1920.969@0.23.1920.969" timestamp="1584850857940" />
+    <state width="1899" height="482" key="GridCell.Tab.1.bottom/0.23.1920.969@0.23.1920.969" timestamp="1584908342894" />
     <state width="1899" height="338" key="GridCell.Tab.1.bottom/0.23.1920.977@0.23.1920.977" timestamp="1582307941726" />
-    <state width="1899" height="334" key="GridCell.Tab.1.center" timestamp="1584850857939">
+    <state width="1899" height="482" key="GridCell.Tab.1.center" timestamp="1584908342893">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="334" key="GridCell.Tab.1.center/0.23.1920.969@0.23.1920.969" timestamp="1584850857939" />
+    <state width="1899" height="482" key="GridCell.Tab.1.center/0.23.1920.969@0.23.1920.969" timestamp="1584908342893" />
     <state width="1899" height="338" key="GridCell.Tab.1.center/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="334" key="GridCell.Tab.1.left" timestamp="1584850857939">
+    <state width="1899" height="482" key="GridCell.Tab.1.left" timestamp="1584908342893">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="334" key="GridCell.Tab.1.left/0.23.1920.969@0.23.1920.969" timestamp="1584850857939" />
+    <state width="1899" height="482" key="GridCell.Tab.1.left/0.23.1920.969@0.23.1920.969" timestamp="1584908342893" />
     <state width="1899" height="338" key="GridCell.Tab.1.left/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="334" key="GridCell.Tab.1.right" timestamp="1584850857940">
+    <state width="1899" height="482" key="GridCell.Tab.1.right" timestamp="1584908342894">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="334" key="GridCell.Tab.1.right/0.23.1920.969@0.23.1920.969" timestamp="1584850857940" />
+    <state width="1899" height="482" key="GridCell.Tab.1.right/0.23.1920.969@0.23.1920.969" timestamp="1584908342894" />
     <state width="1899" height="338" key="GridCell.Tab.1.right/0.23.1920.977@0.23.1920.977" timestamp="1582307941726" />
     <state x="229" y="62" key="SettingsEditor" timestamp="1581038206532">
       <screen x="0" y="23" width="1440" height="801" />
