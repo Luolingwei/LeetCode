@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac315eb-5f1f-46f7-97e3-6e9ed1081f9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Math/Q1390_Four Divisors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Q1392_Longest Happy Prefix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Q1369_Count Number of Teams.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +57,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Q1392_Longest Happy Prefix">
-    <configuration name="Q1381_Design a Stack With Increment Operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Q1369_Count Number of Teams">
+    <configuration name="Q1369_Count Number of Teams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design/Q1381_Design a Stack With Increment Operation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q1369_Count Number of Teams.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,18 +165,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.Q1381_Design a Stack With Increment Operation" />
       <item itemvalue="Python.Q1383_Maximum Performance of a Team" />
       <item itemvalue="Python.Q1391_Check if There is a Valid Path in a Grid" />
       <item itemvalue="Python.Q1392_Longest Happy Prefix" />
+      <item itemvalue="Python.Q1369_Count Number of Teams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Q1369_Count Number of Teams" />
         <item itemvalue="Python.Q1392_Longest Happy Prefix" />
         <item itemvalue="Python.Q1391_Check if There is a Valid Path in a Grid" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.Q1383_Maximum Performance of a Team" />
-        <item itemvalue="Python.Q1381_Design a Stack With Increment Operation" />
       </list>
     </recent_temporary>
   </component>
