@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac315eb-5f1f-46f7-97e3-6e9ed1081f9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/Q1424_Diagonal Traverse II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/Q1425_Constrained Subset Sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTable/Q1422_Maximum Score After Splitting a String.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlideWindow/Q1423_Maximum Points You Can Obtain from Cards.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/Q1425_Constrained Subset Sum.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,49 +63,7 @@
       <recent name="$PROJECT_DIR$/SlideWindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Q1425_Constrained Subset Sum">
-    <configuration name="Q1423_Maximum Points You Can Obtain from Cards" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SlideWindow/Q1423_Maximum Points You Can Obtain from Cards.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Q1424_Diagonal Traverse II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q1424_Diagonal Traverse II.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Q1439_Find the Kth Smallest Sum of a Matrix With Sorted Rows">
     <configuration name="Q1425_Constrained Subset Sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +76,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/Q1425_Constrained Subset Sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SlideWindow/Q1425_Constrained Subset Sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="QFA_Select Elements without Adjacent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Q1438_Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +93,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SlideWindow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/QFA_Select Elements without Adjacent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SlideWindow/Q1438_Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Q1439_Find the Kth Smallest Sum of a Matrix With Sorted Rows" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Heap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Heap/Q1439_Find the Kth Smallest Sum of a Matrix With Sorted Rows.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Q373_Find K Pairs with Smallest Sums" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Heap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Heap/Q373_Find K Pairs with Smallest Sums.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,18 +235,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.QFA_Select Elements without Adjacent" />
-      <item itemvalue="Python.Q1423_Maximum Points You Can Obtain from Cards" />
-      <item itemvalue="Python.Q1424_Diagonal Traverse II" />
       <item itemvalue="Python.Q1425_Constrained Subset Sum" />
+      <item itemvalue="Python.Q373_Find K Pairs with Smallest Sums" />
+      <item itemvalue="Python.Q1438_Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit" />
+      <item itemvalue="Python.Q1439_Find the Kth Smallest Sum of a Matrix With Sorted Rows" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Q1425_Constrained Subset Sum" />
-        <item itemvalue="Python.Q1424_Diagonal Traverse II" />
-        <item itemvalue="Python.Q1423_Maximum Points You Can Obtain from Cards" />
+        <item itemvalue="Python.Q1439_Find the Kth Smallest Sum of a Matrix With Sorted Rows" />
+        <item itemvalue="Python.Q1438_Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.QFA_Select Elements without Adjacent" />
+        <item itemvalue="Python.Q373_Find K Pairs with Smallest Sums" />
+        <item itemvalue="Python.Q1425_Constrained Subset Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -270,8 +267,8 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="371" key="GridCell.Tab.0.bottom" timestamp="1587916723583">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="297" key="GridCell.Tab.0.bottom" timestamp="1588521897769">
+      <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581829948727" />
     <state width="1419" height="186" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1581038223175" />
@@ -279,10 +276,11 @@
     <state width="1899" height="340" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1586720395949" />
     <state width="1899" height="296" key="GridCell.Tab.0.bottom/0.23.1920.966@0.23.1920.966" timestamp="1587310980568" />
     <state width="1899" height="342" key="GridCell.Tab.0.bottom/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
+    <state width="1899" height="297" key="GridCell.Tab.0.bottom/0.23.1920.968@0.23.1920.968" timestamp="1588521897769" />
     <state width="1899" height="343" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1585495901044" />
     <state width="1899" height="338" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="371" key="GridCell.Tab.0.center" timestamp="1587916723583">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="297" key="GridCell.Tab.0.center" timestamp="1588521897767">
+      <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1581829948726" />
     <state width="1419" height="186" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
@@ -290,10 +288,11 @@
     <state width="1899" height="340" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1586720395947" />
     <state width="1899" height="296" key="GridCell.Tab.0.center/0.23.1920.966@0.23.1920.966" timestamp="1587310980567" />
     <state width="1899" height="342" key="GridCell.Tab.0.center/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
+    <state width="1899" height="297" key="GridCell.Tab.0.center/0.23.1920.968@0.23.1920.968" timestamp="1588521897767" />
     <state width="1899" height="343" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1585495901043" />
     <state width="1899" height="338" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1582307941724" />
-    <state width="1899" height="371" key="GridCell.Tab.0.left" timestamp="1587916723582">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="297" key="GridCell.Tab.0.left" timestamp="1588521897766">
+      <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1581829948725" />
     <state width="1419" height="186" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
@@ -301,10 +300,11 @@
     <state width="1899" height="340" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1586720395946" />
     <state width="1899" height="296" key="GridCell.Tab.0.left/0.23.1920.966@0.23.1920.966" timestamp="1587310980566" />
     <state width="1899" height="342" key="GridCell.Tab.0.left/0.23.1920.967@0.23.1920.967" timestamp="1586113198731" />
+    <state width="1899" height="297" key="GridCell.Tab.0.left/0.23.1920.968@0.23.1920.968" timestamp="1588521897766" />
     <state width="1899" height="343" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1585495901043" />
     <state width="1899" height="338" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1582307941724" />
-    <state width="1899" height="371" key="GridCell.Tab.0.right" timestamp="1587916723583">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="297" key="GridCell.Tab.0.right" timestamp="1588521897768">
+      <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1581829948726" />
     <state width="1419" height="186" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
@@ -312,38 +312,43 @@
     <state width="1899" height="340" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1586720395948" />
     <state width="1899" height="296" key="GridCell.Tab.0.right/0.23.1920.966@0.23.1920.966" timestamp="1587310980568" />
     <state width="1899" height="342" key="GridCell.Tab.0.right/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
+    <state width="1899" height="297" key="GridCell.Tab.0.right/0.23.1920.968@0.23.1920.968" timestamp="1588521897768" />
     <state width="1899" height="343" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1585495901043" />
     <state width="1899" height="338" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="371" key="GridCell.Tab.1.bottom" timestamp="1587916723584">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="373" key="GridCell.Tab.1.bottom" timestamp="1588481125751">
+      <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
     <state width="1899" height="371" key="GridCell.Tab.1.bottom/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
     <state width="1899" height="372" key="GridCell.Tab.1.bottom/0.23.1920.966@0.23.1920.966" timestamp="1587271773546" />
+    <state width="1899" height="373" key="GridCell.Tab.1.bottom/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
     <state width="1899" height="482" key="GridCell.Tab.1.bottom/0.23.1920.969@0.23.1920.969" timestamp="1584908342894" />
     <state width="1899" height="338" key="GridCell.Tab.1.bottom/0.23.1920.977@0.23.1920.977" timestamp="1582307941726" />
-    <state width="1899" height="371" key="GridCell.Tab.1.center" timestamp="1587916723584">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="373" key="GridCell.Tab.1.center" timestamp="1588481125751">
+      <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
     <state width="1899" height="371" key="GridCell.Tab.1.center/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
     <state width="1899" height="372" key="GridCell.Tab.1.center/0.23.1920.966@0.23.1920.966" timestamp="1587271773546" />
+    <state width="1899" height="373" key="GridCell.Tab.1.center/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
     <state width="1899" height="482" key="GridCell.Tab.1.center/0.23.1920.969@0.23.1920.969" timestamp="1584908342893" />
     <state width="1899" height="338" key="GridCell.Tab.1.center/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="371" key="GridCell.Tab.1.left" timestamp="1587916723584">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="373" key="GridCell.Tab.1.left" timestamp="1588481125750">
+      <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
     <state width="1899" height="371" key="GridCell.Tab.1.left/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
     <state width="1899" height="372" key="GridCell.Tab.1.left/0.23.1920.966@0.23.1920.966" timestamp="1587271773545" />
+    <state width="1899" height="373" key="GridCell.Tab.1.left/0.23.1920.968@0.23.1920.968" timestamp="1588481125750" />
     <state width="1899" height="482" key="GridCell.Tab.1.left/0.23.1920.969@0.23.1920.969" timestamp="1584908342893" />
     <state width="1899" height="338" key="GridCell.Tab.1.left/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="371" key="GridCell.Tab.1.right" timestamp="1587916723584">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="373" key="GridCell.Tab.1.right" timestamp="1588481125751">
+      <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
     <state width="1899" height="371" key="GridCell.Tab.1.right/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
     <state width="1899" height="372" key="GridCell.Tab.1.right/0.23.1920.966@0.23.1920.966" timestamp="1587271773546" />
+    <state width="1899" height="373" key="GridCell.Tab.1.right/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
     <state width="1899" height="482" key="GridCell.Tab.1.right/0.23.1920.969@0.23.1920.969" timestamp="1584908342894" />
     <state width="1899" height="338" key="GridCell.Tab.1.right/0.23.1920.977@0.23.1920.977" timestamp="1582307941726" />
     <state x="229" y="62" key="SettingsEditor" timestamp="1581038206532">
