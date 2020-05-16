@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac315eb-5f1f-46f7-97e3-6e9ed1081f9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Stack/Q1441_Build an Array With Stack Operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BitManipulation/Q1442_Count Triplets That Can Form Two Arrays of Equal XOR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DepthFirstSearch/Q1443_Minimum Time to Collect All Apples in a Tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,57 +60,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DepthFirstSearch" />
       <recent name="$PROJECT_DIR$/SlideWindow" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Q1441_Build an Array With Stack Operations">
-    <configuration name="FindPath (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FindPath.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FindPath" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DepthFirstSearch/FindPath.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration name="Q1441_Build an Array With Stack Operations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,6 +82,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack/Q1441_Build an Array With Stack Operations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Q1442_Count Triplets That Can Form Two Arrays of Equal XOR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BitManipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BitManipulation/Q1442_Count Triplets That Can Form Two Arrays of Equal XOR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Q1443_Minimum Time to Collect All Apples in a Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DepthFirstSearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DepthFirstSearch/Q1443_Minimum Time to Collect All Apples in a Tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,19 +239,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FindPath" />
-      <item itemvalue="Python.FindPath (1)" />
       <item itemvalue="Python.cnn" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.Q1441_Build an Array With Stack Operations" />
+      <item itemvalue="Python.Q1442_Count Triplets That Can Form Two Arrays of Equal XOR" />
+      <item itemvalue="Python.Q1443_Minimum Time to Collect All Apples in a Tree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Q1441_Build an Array With Stack Operations" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.Q1443_Minimum Time to Collect All Apples in a Tree" />
+        <item itemvalue="Python.Q1442_Count Triplets That Can Form Two Arrays of Equal XOR" />
+        <item itemvalue="Python.Q1441_Build an Array With Stack Operations" />
         <item itemvalue="Python.cnn" />
-        <item itemvalue="Python.FindPath (1)" />
-        <item itemvalue="Python.FindPath" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +272,7 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="398" key="GridCell.Tab.0.bottom" timestamp="1589124409667">
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1589508983390">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581829948727" />
@@ -281,9 +282,9 @@
     <state width="1899" height="296" key="GridCell.Tab.0.bottom/0.23.1920.966@0.23.1920.966" timestamp="1587310980568" />
     <state width="1899" height="342" key="GridCell.Tab.0.bottom/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
     <state width="1899" height="297" key="GridCell.Tab.0.bottom/0.23.1920.968@0.23.1920.968" timestamp="1588521897769" />
-    <state width="1899" height="398" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1589124409667" />
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1589508983390" />
     <state width="1899" height="338" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="398" key="GridCell.Tab.0.center" timestamp="1589124409666">
+    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1589508983389">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1581829948726" />
@@ -293,9 +294,9 @@
     <state width="1899" height="296" key="GridCell.Tab.0.center/0.23.1920.966@0.23.1920.966" timestamp="1587310980567" />
     <state width="1899" height="342" key="GridCell.Tab.0.center/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
     <state width="1899" height="297" key="GridCell.Tab.0.center/0.23.1920.968@0.23.1920.968" timestamp="1588521897767" />
-    <state width="1899" height="398" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1589124409666" />
+    <state width="1899" height="279" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1589508983389" />
     <state width="1899" height="338" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1582307941724" />
-    <state width="1899" height="398" key="GridCell.Tab.0.left" timestamp="1589124409665">
+    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1589508983388">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1581829948725" />
@@ -305,9 +306,9 @@
     <state width="1899" height="296" key="GridCell.Tab.0.left/0.23.1920.966@0.23.1920.966" timestamp="1587310980566" />
     <state width="1899" height="342" key="GridCell.Tab.0.left/0.23.1920.967@0.23.1920.967" timestamp="1586113198731" />
     <state width="1899" height="297" key="GridCell.Tab.0.left/0.23.1920.968@0.23.1920.968" timestamp="1588521897766" />
-    <state width="1899" height="398" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1589124409665" />
+    <state width="1899" height="279" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1589508983388" />
     <state width="1899" height="338" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1582307941724" />
-    <state width="1899" height="398" key="GridCell.Tab.0.right" timestamp="1589124409666">
+    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1589508983389">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1419" height="184" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1581829948726" />
@@ -317,43 +318,43 @@
     <state width="1899" height="296" key="GridCell.Tab.0.right/0.23.1920.966@0.23.1920.966" timestamp="1587310980568" />
     <state width="1899" height="342" key="GridCell.Tab.0.right/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
     <state width="1899" height="297" key="GridCell.Tab.0.right/0.23.1920.968@0.23.1920.968" timestamp="1588521897768" />
-    <state width="1899" height="398" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1589124409666" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1589508983389" />
     <state width="1899" height="338" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="320" key="GridCell.Tab.1.bottom" timestamp="1589085359313">
+    <state width="1899" height="320" key="GridCell.Tab.1.bottom" timestamp="1589508983384">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
     <state width="1899" height="371" key="GridCell.Tab.1.bottom/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
     <state width="1899" height="372" key="GridCell.Tab.1.bottom/0.23.1920.966@0.23.1920.966" timestamp="1587271773546" />
     <state width="1899" height="373" key="GridCell.Tab.1.bottom/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
-    <state width="1899" height="320" key="GridCell.Tab.1.bottom/0.23.1920.969@0.23.1920.969" timestamp="1589085359313" />
+    <state width="1899" height="320" key="GridCell.Tab.1.bottom/0.23.1920.969@0.23.1920.969" timestamp="1589508983384" />
     <state width="1899" height="338" key="GridCell.Tab.1.bottom/0.23.1920.977@0.23.1920.977" timestamp="1582307941726" />
-    <state width="1899" height="320" key="GridCell.Tab.1.center" timestamp="1589085359312">
+    <state width="1899" height="320" key="GridCell.Tab.1.center" timestamp="1589508983383">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
     <state width="1899" height="371" key="GridCell.Tab.1.center/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
     <state width="1899" height="372" key="GridCell.Tab.1.center/0.23.1920.966@0.23.1920.966" timestamp="1587271773546" />
     <state width="1899" height="373" key="GridCell.Tab.1.center/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
-    <state width="1899" height="320" key="GridCell.Tab.1.center/0.23.1920.969@0.23.1920.969" timestamp="1589085359312" />
+    <state width="1899" height="320" key="GridCell.Tab.1.center/0.23.1920.969@0.23.1920.969" timestamp="1589508983383" />
     <state width="1899" height="338" key="GridCell.Tab.1.center/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="320" key="GridCell.Tab.1.left" timestamp="1589085359312">
+    <state width="1899" height="320" key="GridCell.Tab.1.left" timestamp="1589508983383">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
     <state width="1899" height="371" key="GridCell.Tab.1.left/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
     <state width="1899" height="372" key="GridCell.Tab.1.left/0.23.1920.966@0.23.1920.966" timestamp="1587271773545" />
     <state width="1899" height="373" key="GridCell.Tab.1.left/0.23.1920.968@0.23.1920.968" timestamp="1588481125750" />
-    <state width="1899" height="320" key="GridCell.Tab.1.left/0.23.1920.969@0.23.1920.969" timestamp="1589085359312" />
+    <state width="1899" height="320" key="GridCell.Tab.1.left/0.23.1920.969@0.23.1920.969" timestamp="1589508983383" />
     <state width="1899" height="338" key="GridCell.Tab.1.left/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="320" key="GridCell.Tab.1.right" timestamp="1589085359312">
+    <state width="1899" height="320" key="GridCell.Tab.1.right" timestamp="1589508983383">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state width="1407" height="264" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
     <state width="1899" height="371" key="GridCell.Tab.1.right/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
     <state width="1899" height="372" key="GridCell.Tab.1.right/0.23.1920.966@0.23.1920.966" timestamp="1587271773546" />
     <state width="1899" height="373" key="GridCell.Tab.1.right/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
-    <state width="1899" height="320" key="GridCell.Tab.1.right/0.23.1920.969@0.23.1920.969" timestamp="1589085359312" />
+    <state width="1899" height="320" key="GridCell.Tab.1.right/0.23.1920.969@0.23.1920.969" timestamp="1589508983383" />
     <state width="1899" height="338" key="GridCell.Tab.1.right/0.23.1920.977@0.23.1920.977" timestamp="1582307941726" />
     <state x="229" y="62" key="SettingsEditor" timestamp="1581038206532">
       <screen x="0" y="23" width="1440" height="801" />
