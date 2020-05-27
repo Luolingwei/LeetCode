@@ -11,18 +11,20 @@
 import collections
 class Solution:
     def smallestStringWithSwaps(self, s, pairs):
+        def find(x):
+            while x in uf:
+                while uf[x] in uf:
+                    uf[x] = uf[uf[x]]
+                x = uf[x]
+            return x
         def union(x,y):
-            headx,heady=find(x),find(y)
-            if headx!=heady:
-                u[heady]=headx
-
-        def find(x): #直接修改u[x]为祖先，简化路径
-            if u[x]!=x:
-                u[x]=find(u[x])
-            return u[x]
+            px,py = find(x),find(y)
+            if px==py: return False
+            uf[px] = py
+            return True
 
         N=len(s)
-        u=[i for i in range(N)]
+        uf = {}
         for x,y in pairs: union(x,y)
 
         strs,ans=['' for _ in range(N)],['' for _ in range(N)]

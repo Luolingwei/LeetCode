@@ -37,16 +37,26 @@ class Solution:
 
     # Solution 2 union find 44 ms
     def equationsPossible(self, equations):
-        # 寻找祖先
+
         def find(x):
-            if uf[x]!=x: return find(uf[x])
-            else: return x
-        uf={char:char for char in string.ascii_lowercase}
-        # 合并祖先
-        for x,symbol,_,y in equations:
-            if symbol=='=':
-                uf[find(x)]=find(y)
-        return not any(symbol=='!' and find(x)==find(y) for x,symbol,_,y in equations)
+            while x in uf:
+                # path compress
+                while uf[x] in uf:
+                    uf[x] = uf[uf[x]]
+                x = uf[x]
+            return x
+
+        def union(x, y):
+            px, py = find(x), find(y)
+            if px == py: return False
+            uf[px] = py
+            return True
+
+        uf = {}
+        for x, symbol, _, y in equations:
+            if symbol == '=': union(x, y)
+        return not any([find(x) == find(y) for x, symbol, _, y in equations if symbol == '!'])
+
 
 a=Solution()
 print(a.equationsPossible(["d!=d"]))

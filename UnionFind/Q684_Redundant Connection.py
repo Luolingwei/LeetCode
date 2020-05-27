@@ -35,14 +35,23 @@ class Solution:
     # Solution 2 Union Find 44ms
     def findRedundantConnection(self, edges):
         def find(x):
-            if uf[x]!=x: return find(uf[x])
+            while x in uf:
+                # path compress
+                while uf[x] in uf:
+                    uf[x] = uf[uf[x]]
+                x = uf[x]
             return x
-        N=len(edges)
-        uf={i:i for i in range(1,N+1)} # or uf=list(range(N+1))
-        for u,v in edges:
-            if find(u)==find(v): return [u,v]
-            else: uf[find(u)]=find(v)
-        return []
+
+        def union(x, y):
+            px, py = find(x), find(y)
+            if px == py: return False
+            uf[px] = py
+            return True
+
+        uf = {}
+        for x, y in edges:
+            if not union(x, y):
+                return [x, y]
 
 a=Solution()
 print(a.findRedundantConnection([[1,2], [2,3], [3,4], [1,4], [1,5]]))
