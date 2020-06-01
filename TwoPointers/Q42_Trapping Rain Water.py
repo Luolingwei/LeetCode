@@ -18,19 +18,20 @@ class Solution:
 
     # O(n)
     def trap(self, height):
-        N,ans=len(height),0
-        l,r=0,N-1
-        lmax,rmax=0,0
+        l,r = 0, len(height)-1
+        lmax,rmax = 0,0
+        res = 0
         while l<r:
             if height[l]<height[r]:
-                lmax=max(height[l],lmax)
-                ans+=lmax-height[l]
+                lmax = max(lmax,height[l])
+                res += lmax-height[l]
                 l+=1
             else:
-                rmax=max(height[r],rmax)
-                ans+=rmax-height[r]
+                rmax = max(rmax,height[r])
+                res += rmax-height[r]
                 r-=1
-        return ans
+        return res
+
 
 a = Solution()
 print(a.trap([0,1,0,2,1,0,1,3,2,1,2,1]))
