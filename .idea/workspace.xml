@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac315eb-5f1f-46f7-97e3-6e9ed1081f9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BitManipulation/Q1442_Count Triplets That Can Form Two Arrays of Equal XOR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DepthFirstSearch/Q1443_Minimum Time to Collect All Apples in a Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/Q1462_Course Schedule IV.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,19 +56,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/DepthFirstSearch" />
+      <recent name="$PROJECT_DIR$/TwoPointers" />
+      <recent name="$PROJECT_DIR$/Tree" />
+      <recent name="$PROJECT_DIR$/UnionFind" />
+      <recent name="$PROJECT_DIR$/BreadthFirstSearch" />
       <recent name="$PROJECT_DIR$/SlideWindow" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="Q1441_Build an Array With Stack Operations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Q1462_Course Schedule IV">
+    <configuration name="Q11_Container With Most Water" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TwoPointers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack/Q1441_Build an Array With Stack Operations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TwoPointers/Q11_Container With Most Water.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Q1442_Count Triplets That Can Form Two Arrays of Equal XOR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Q1462_Course Schedule IV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BitManipulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BitManipulation/Q1442_Count Triplets That Can Form Two Arrays of Equal XOR.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph/Q1462_Course Schedule IV.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Q1443_Minimum Time to Collect All Apples in a Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Q311_Sparse Matrix Multiplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +122,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DepthFirstSearch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DepthFirstSearch/Q1443_Minimum Time to Collect All Apples in a Tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q311_Sparse Matrix Multiplication.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Q360_Sort Transformed Array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sort" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort/Q360_Sort Transformed Array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Q42_Trapping Rain Water" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TwoPointers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TwoPointers/Q42_Trapping Rain Water.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,48 +190,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,19 +242,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cnn" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.Q1441_Build an Array With Stack Operations" />
-      <item itemvalue="Python.Q1442_Count Triplets That Can Form Two Arrays of Equal XOR" />
-      <item itemvalue="Python.Q1443_Minimum Time to Collect All Apples in a Tree" />
+      <item itemvalue="Python.Q311_Sparse Matrix Multiplication" />
+      <item itemvalue="Python.Q360_Sort Transformed Array" />
+      <item itemvalue="Python.Q42_Trapping Rain Water" />
+      <item itemvalue="Python.Q11_Container With Most Water" />
+      <item itemvalue="Python.Q1462_Course Schedule IV" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Q1443_Minimum Time to Collect All Apples in a Tree" />
-        <item itemvalue="Python.Q1442_Count Triplets That Can Form Two Arrays of Equal XOR" />
-        <item itemvalue="Python.Q1441_Build an Array With Stack Operations" />
-        <item itemvalue="Python.cnn" />
+        <item itemvalue="Python.Q1462_Course Schedule IV" />
+        <item itemvalue="Python.Q11_Container With Most Water" />
+        <item itemvalue="Python.Q42_Trapping Rain Water" />
+        <item itemvalue="Python.Q360_Sort Transformed Array" />
+        <item itemvalue="Python.Q311_Sparse Matrix Multiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -271,120 +274,114 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1589508983390">
-      <screen x="0" y="23" width="1920" height="969" />
+    <state x="712" y="367" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590676285683">
+      <screen x="0" y="23" width="1920" height="962" />
     </state>
-    <state width="1419" height="184" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581829948727" />
-    <state width="1419" height="186" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1581038223175" />
-    <state width="1899" height="371" key="GridCell.Tab.0.bottom/0.23.1920.962@0.23.1920.962" timestamp="1587916723583" />
+    <state x="712" y="367" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1920.962@0.23.1920.962" timestamp="1590676285683" />
+    <state width="1899" height="185" key="GridCell.Tab.0.bottom" timestamp="1590977303781">
+      <screen x="0" y="23" width="1920" height="962" />
+    </state>
+    <state width="1899" height="185" key="GridCell.Tab.0.bottom/0.23.1920.962@0.23.1920.962" timestamp="1590977303781" />
     <state width="1899" height="340" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1586720395949" />
-    <state width="1899" height="296" key="GridCell.Tab.0.bottom/0.23.1920.966@0.23.1920.966" timestamp="1587310980568" />
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.23.1920.965@0.23.1920.965" timestamp="1589729952282" />
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.23.1920.966@0.23.1920.966" timestamp="1590420576310" />
     <state width="1899" height="342" key="GridCell.Tab.0.bottom/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
     <state width="1899" height="297" key="GridCell.Tab.0.bottom/0.23.1920.968@0.23.1920.968" timestamp="1588521897769" />
     <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1589508983390" />
-    <state width="1899" height="338" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1589508983389">
-      <screen x="0" y="23" width="1920" height="969" />
+    <state width="1899" height="185" key="GridCell.Tab.0.center" timestamp="1590977303780">
+      <screen x="0" y="23" width="1920" height="962" />
     </state>
-    <state width="1419" height="184" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1581829948726" />
-    <state width="1419" height="186" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
-    <state width="1899" height="371" key="GridCell.Tab.0.center/0.23.1920.962@0.23.1920.962" timestamp="1587916723583" />
+    <state width="1899" height="185" key="GridCell.Tab.0.center/0.23.1920.962@0.23.1920.962" timestamp="1590977303780" />
     <state width="1899" height="340" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1586720395947" />
-    <state width="1899" height="296" key="GridCell.Tab.0.center/0.23.1920.966@0.23.1920.966" timestamp="1587310980567" />
+    <state width="1899" height="277" key="GridCell.Tab.0.center/0.23.1920.965@0.23.1920.965" timestamp="1589729952282" />
+    <state width="1899" height="277" key="GridCell.Tab.0.center/0.23.1920.966@0.23.1920.966" timestamp="1590420576309" />
     <state width="1899" height="342" key="GridCell.Tab.0.center/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
     <state width="1899" height="297" key="GridCell.Tab.0.center/0.23.1920.968@0.23.1920.968" timestamp="1588521897767" />
     <state width="1899" height="279" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1589508983389" />
-    <state width="1899" height="338" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1582307941724" />
-    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1589508983388">
-      <screen x="0" y="23" width="1920" height="969" />
+    <state width="1899" height="185" key="GridCell.Tab.0.left" timestamp="1590977303780">
+      <screen x="0" y="23" width="1920" height="962" />
     </state>
-    <state width="1419" height="184" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1581829948725" />
-    <state width="1419" height="186" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
-    <state width="1899" height="371" key="GridCell.Tab.0.left/0.23.1920.962@0.23.1920.962" timestamp="1587916723582" />
+    <state width="1899" height="185" key="GridCell.Tab.0.left/0.23.1920.962@0.23.1920.962" timestamp="1590977303780" />
     <state width="1899" height="340" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1586720395946" />
-    <state width="1899" height="296" key="GridCell.Tab.0.left/0.23.1920.966@0.23.1920.966" timestamp="1587310980566" />
+    <state width="1899" height="277" key="GridCell.Tab.0.left/0.23.1920.965@0.23.1920.965" timestamp="1589729952282" />
+    <state width="1899" height="277" key="GridCell.Tab.0.left/0.23.1920.966@0.23.1920.966" timestamp="1590420576309" />
     <state width="1899" height="342" key="GridCell.Tab.0.left/0.23.1920.967@0.23.1920.967" timestamp="1586113198731" />
     <state width="1899" height="297" key="GridCell.Tab.0.left/0.23.1920.968@0.23.1920.968" timestamp="1588521897766" />
     <state width="1899" height="279" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1589508983388" />
-    <state width="1899" height="338" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1582307941724" />
-    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1589508983389">
-      <screen x="0" y="23" width="1920" height="969" />
+    <state width="1899" height="185" key="GridCell.Tab.0.right" timestamp="1590977303781">
+      <screen x="0" y="23" width="1920" height="962" />
     </state>
-    <state width="1419" height="184" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1581829948726" />
-    <state width="1419" height="186" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1581038223174" />
-    <state width="1899" height="371" key="GridCell.Tab.0.right/0.23.1920.962@0.23.1920.962" timestamp="1587916723583" />
+    <state width="1899" height="185" key="GridCell.Tab.0.right/0.23.1920.962@0.23.1920.962" timestamp="1590977303781" />
     <state width="1899" height="340" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1586720395948" />
-    <state width="1899" height="296" key="GridCell.Tab.0.right/0.23.1920.966@0.23.1920.966" timestamp="1587310980568" />
+    <state width="1899" height="277" key="GridCell.Tab.0.right/0.23.1920.965@0.23.1920.965" timestamp="1589729952282" />
+    <state width="1899" height="277" key="GridCell.Tab.0.right/0.23.1920.966@0.23.1920.966" timestamp="1590420576310" />
     <state width="1899" height="342" key="GridCell.Tab.0.right/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
     <state width="1899" height="297" key="GridCell.Tab.0.right/0.23.1920.968@0.23.1920.968" timestamp="1588521897768" />
     <state width="1899" height="279" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1589508983389" />
-    <state width="1899" height="338" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="320" key="GridCell.Tab.1.bottom" timestamp="1589508983384">
-      <screen x="0" y="23" width="1920" height="969" />
+    <state width="1899" height="316" key="GridCell.Tab.1.bottom" timestamp="1590594694831">
+      <screen x="0" y="23" width="1920" height="962" />
     </state>
-    <state width="1407" height="264" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="371" key="GridCell.Tab.1.bottom/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
-    <state width="1899" height="372" key="GridCell.Tab.1.bottom/0.23.1920.966@0.23.1920.966" timestamp="1587271773546" />
+    <state width="1899" height="316" key="GridCell.Tab.1.bottom/0.23.1920.962@0.23.1920.962" timestamp="1590594694831" />
+    <state width="1899" height="318" key="GridCell.Tab.1.bottom/0.23.1920.966@0.23.1920.966" timestamp="1590380632225" />
     <state width="1899" height="373" key="GridCell.Tab.1.bottom/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
     <state width="1899" height="320" key="GridCell.Tab.1.bottom/0.23.1920.969@0.23.1920.969" timestamp="1589508983384" />
-    <state width="1899" height="338" key="GridCell.Tab.1.bottom/0.23.1920.977@0.23.1920.977" timestamp="1582307941726" />
-    <state width="1899" height="320" key="GridCell.Tab.1.center" timestamp="1589508983383">
-      <screen x="0" y="23" width="1920" height="969" />
+    <state width="1899" height="316" key="GridCell.Tab.1.center" timestamp="1590594694830">
+      <screen x="0" y="23" width="1920" height="962" />
     </state>
-    <state width="1407" height="264" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="371" key="GridCell.Tab.1.center/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
-    <state width="1899" height="372" key="GridCell.Tab.1.center/0.23.1920.966@0.23.1920.966" timestamp="1587271773546" />
+    <state width="1899" height="316" key="GridCell.Tab.1.center/0.23.1920.962@0.23.1920.962" timestamp="1590594694830" />
+    <state width="1899" height="318" key="GridCell.Tab.1.center/0.23.1920.966@0.23.1920.966" timestamp="1590380632223" />
     <state width="1899" height="373" key="GridCell.Tab.1.center/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
     <state width="1899" height="320" key="GridCell.Tab.1.center/0.23.1920.969@0.23.1920.969" timestamp="1589508983383" />
-    <state width="1899" height="338" key="GridCell.Tab.1.center/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="320" key="GridCell.Tab.1.left" timestamp="1589508983383">
-      <screen x="0" y="23" width="1920" height="969" />
+    <state width="1899" height="316" key="GridCell.Tab.1.left" timestamp="1590594694830">
+      <screen x="0" y="23" width="1920" height="962" />
     </state>
-    <state width="1407" height="264" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="371" key="GridCell.Tab.1.left/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
-    <state width="1899" height="372" key="GridCell.Tab.1.left/0.23.1920.966@0.23.1920.966" timestamp="1587271773545" />
+    <state width="1899" height="316" key="GridCell.Tab.1.left/0.23.1920.962@0.23.1920.962" timestamp="1590594694830" />
+    <state width="1899" height="318" key="GridCell.Tab.1.left/0.23.1920.966@0.23.1920.966" timestamp="1590380632223" />
     <state width="1899" height="373" key="GridCell.Tab.1.left/0.23.1920.968@0.23.1920.968" timestamp="1588481125750" />
     <state width="1899" height="320" key="GridCell.Tab.1.left/0.23.1920.969@0.23.1920.969" timestamp="1589508983383" />
-    <state width="1899" height="338" key="GridCell.Tab.1.left/0.23.1920.977@0.23.1920.977" timestamp="1582307941725" />
-    <state width="1899" height="320" key="GridCell.Tab.1.right" timestamp="1589508983383">
-      <screen x="0" y="23" width="1920" height="969" />
+    <state width="1899" height="316" key="GridCell.Tab.1.right" timestamp="1590594694831">
+      <screen x="0" y="23" width="1920" height="962" />
     </state>
-    <state width="1407" height="264" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1581223993965" />
-    <state width="1899" height="371" key="GridCell.Tab.1.right/0.23.1920.962@0.23.1920.962" timestamp="1587916723584" />
-    <state width="1899" height="372" key="GridCell.Tab.1.right/0.23.1920.966@0.23.1920.966" timestamp="1587271773546" />
+    <state width="1899" height="316" key="GridCell.Tab.1.right/0.23.1920.962@0.23.1920.962" timestamp="1590594694831" />
+    <state width="1899" height="318" key="GridCell.Tab.1.right/0.23.1920.966@0.23.1920.966" timestamp="1590380632224" />
     <state width="1899" height="373" key="GridCell.Tab.1.right/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
     <state width="1899" height="320" key="GridCell.Tab.1.right/0.23.1920.969@0.23.1920.969" timestamp="1589508983383" />
-    <state width="1899" height="338" key="GridCell.Tab.1.right/0.23.1920.977@0.23.1920.977" timestamp="1582307941726" />
-    <state x="229" y="62" key="SettingsEditor" timestamp="1581038206532">
-      <screen x="0" y="23" width="1440" height="801" />
-    </state>
-    <state x="229" y="62" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1581038206532" />
     <state width="960" height="484" key="XDebugger.FullValuePopup" timestamp="1589047210545">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
-    <state width="720" height="398" key="XDebugger.FullValuePopup/0.23.1440.797@0.23.1440.797" timestamp="1581220098990" />
     <state width="960" height="484" key="XDebugger.FullValuePopup/0.23.1920.969@0.23.1920.969" timestamp="1589047210545" />
     <state x="529" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1584280126299">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state x="397" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1582588710946" />
     <state x="529" y="304" key="com.intellij.ide.util.TipDialog/0.23.1920.969@0.23.1920.969" timestamp="1584280126299" />
-    <state x="529" y="306" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1582300116662" />
     <state x="561" y="129" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588893904385">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state x="561" y="129" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.969@0.23.1920.969" timestamp="1588893904385" />
-    <state x="640" y="143" width="639" height="729" key="find.popup" timestamp="1588891529481">
-      <screen x="0" y="23" width="1920" height="969" />
+    <state x="640" y="142" width="782" height="725" key="find.popup" timestamp="1590870195413">
+      <screen x="0" y="23" width="1920" height="962" />
     </state>
-    <state x="640" y="142" width="639" height="725" key="find.popup/0.23.1920.962@0.23.1920.962" timestamp="1587869662439" />
+    <state x="640" y="142" width="782" height="725" key="find.popup/0.23.1920.962@0.23.1920.962" timestamp="1590870195413" />
+    <state x="640" y="143" width="639" height="727" key="find.popup/0.23.1920.966@0.23.1920.966" timestamp="1590000500955" />
     <state x="640" y="143" width="639" height="728" key="find.popup/0.23.1920.967@0.23.1920.967" timestamp="1586110729630" />
     <state x="640" y="143" width="639" height="729" key="find.popup/0.23.1920.969@0.23.1920.969" timestamp="1588891529481" />
-    <state x="513" y="170" width="894" height="821" key="search.everywhere.popup" timestamp="1586112759213">
-      <screen x="0" y="23" width="1920" height="967" />
+    <state x="513" y="169" width="894" height="818" key="search.everywhere.popup" timestamp="1590977013133">
+      <screen x="0" y="23" width="1920" height="962" />
     </state>
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1581829041887" />
+    <state x="513" y="169" width="894" height="818" key="search.everywhere.popup/0.23.1920.962@0.23.1920.962" timestamp="1590977013133" />
+    <state x="513" y="170" width="894" height="821" key="search.everywhere.popup/0.23.1920.966@0.23.1920.966" timestamp="1590363873303" />
     <state x="513" y="170" width="894" height="821" key="search.everywhere.popup/0.23.1920.967@0.23.1920.967" timestamp="1586112759213" />
     <state x="513" y="170" width="894" height="822" key="search.everywhere.popup/0.23.1920.969@0.23.1920.969" timestamp="1584900093248" />
   </component>
