@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac315eb-5f1f-46f7-97e3-6e9ed1081f9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Graph/Q1462_Course Schedule IV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointers/Q1574_Shortest Subarray to be Removed to Make Array Sorted.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +71,71 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Q1462_Course Schedule IV">
-    <configuration name="Q11_Container With Most Water" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Q1574_Shortest Subarray to be Removed to Make Array Sorted">
+    <configuration name="Q1567_Maximum Length of Subarray With Positive Product" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/Q1567_Maximum Length of Subarray With Positive Product.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Q1568_Minimum Number of Days to Disconnect Island" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DepthFirstSearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DepthFirstSearch/Q1568_Minimum Number of Days to Disconnect Island.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Q1569_Number of Ways to Reorder Array to Get Same BST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/Q1569_Number of Ways to Reorder Array to Get Same BST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Q1574_Shortest Subarray to be Removed to Make Array Sorted" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,91 +147,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TwoPointers/Q11_Container With Most Water.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Q1462_Course Schedule IV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph/Q1462_Course Schedule IV.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Q311_Sparse Matrix Multiplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q311_Sparse Matrix Multiplication.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Q360_Sort Transformed Array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sort" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort/Q360_Sort Transformed Array.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Q42_Trapping Rain Water" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TwoPointers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TwoPointers/Q42_Trapping Rain Water.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TwoPointers/Q1574_Shortest Subarray to be Removed to Make Array Sorted.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,6 +169,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,19 +242,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Q311_Sparse Matrix Multiplication" />
-      <item itemvalue="Python.Q360_Sort Transformed Array" />
-      <item itemvalue="Python.Q42_Trapping Rain Water" />
-      <item itemvalue="Python.Q11_Container With Most Water" />
-      <item itemvalue="Python.Q1462_Course Schedule IV" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.Q1567_Maximum Length of Subarray With Positive Product" />
+      <item itemvalue="Python.Q1569_Number of Ways to Reorder Array to Get Same BST" />
+      <item itemvalue="Python.Q1568_Minimum Number of Days to Disconnect Island" />
+      <item itemvalue="Python.Q1574_Shortest Subarray to be Removed to Make Array Sorted" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Q1462_Course Schedule IV" />
-        <item itemvalue="Python.Q11_Container With Most Water" />
-        <item itemvalue="Python.Q42_Trapping Rain Water" />
-        <item itemvalue="Python.Q360_Sort Transformed Array" />
-        <item itemvalue="Python.Q311_Sparse Matrix Multiplication" />
+        <item itemvalue="Python.Q1574_Shortest Subarray to be Removed to Make Array Sorted" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Q1568_Minimum Number of Days to Disconnect Island" />
+        <item itemvalue="Python.Q1569_Number of Ways to Reorder Array to Get Same BST" />
+        <item itemvalue="Python.Q1567_Maximum Length of Subarray With Positive Product" />
       </list>
     </recent_temporary>
   </component>
@@ -285,105 +285,55 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="712" y="367" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590676285683">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="319" key="GridCell.Tab.0.bottom" timestamp="1599433866903">
+      <screen x="0" y="23" width="1920" height="972" />
     </state>
-    <state x="712" y="367" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1920.962@0.23.1920.962" timestamp="1590676285683" />
-    <state width="1899" height="185" key="GridCell.Tab.0.bottom" timestamp="1590977303781">
-      <screen x="0" y="23" width="1920" height="962" />
-    </state>
+    <state width="1419" height="140" key="GridCell.Tab.0.bottom/0.23.1440.782@0.23.1440.782" timestamp="1591066328641" />
     <state width="1899" height="185" key="GridCell.Tab.0.bottom/0.23.1920.962@0.23.1920.962" timestamp="1590977303781" />
-    <state width="1899" height="340" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1586720395949" />
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.23.1920.965@0.23.1920.965" timestamp="1589729952282" />
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.23.1920.966@0.23.1920.966" timestamp="1590420576310" />
-    <state width="1899" height="342" key="GridCell.Tab.0.bottom/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
-    <state width="1899" height="297" key="GridCell.Tab.0.bottom/0.23.1920.968@0.23.1920.968" timestamp="1588521897769" />
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1589508983390" />
-    <state width="1899" height="185" key="GridCell.Tab.0.center" timestamp="1590977303780">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.23.1920.972@0.23.1920.972" timestamp="1599433866903" />
+    <state width="1899" height="319" key="GridCell.Tab.0.center" timestamp="1599433866902">
+      <screen x="0" y="23" width="1920" height="972" />
     </state>
+    <state width="1419" height="140" key="GridCell.Tab.0.center/0.23.1440.782@0.23.1440.782" timestamp="1591066328641" />
     <state width="1899" height="185" key="GridCell.Tab.0.center/0.23.1920.962@0.23.1920.962" timestamp="1590977303780" />
-    <state width="1899" height="340" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1586720395947" />
-    <state width="1899" height="277" key="GridCell.Tab.0.center/0.23.1920.965@0.23.1920.965" timestamp="1589729952282" />
-    <state width="1899" height="277" key="GridCell.Tab.0.center/0.23.1920.966@0.23.1920.966" timestamp="1590420576309" />
-    <state width="1899" height="342" key="GridCell.Tab.0.center/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
-    <state width="1899" height="297" key="GridCell.Tab.0.center/0.23.1920.968@0.23.1920.968" timestamp="1588521897767" />
-    <state width="1899" height="279" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1589508983389" />
-    <state width="1899" height="185" key="GridCell.Tab.0.left" timestamp="1590977303780">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="319" key="GridCell.Tab.0.center/0.23.1920.972@0.23.1920.972" timestamp="1599433866902" />
+    <state width="1899" height="319" key="GridCell.Tab.0.left" timestamp="1599433866902">
+      <screen x="0" y="23" width="1920" height="972" />
     </state>
+    <state width="1419" height="140" key="GridCell.Tab.0.left/0.23.1440.782@0.23.1440.782" timestamp="1591066328640" />
     <state width="1899" height="185" key="GridCell.Tab.0.left/0.23.1920.962@0.23.1920.962" timestamp="1590977303780" />
-    <state width="1899" height="340" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1586720395946" />
-    <state width="1899" height="277" key="GridCell.Tab.0.left/0.23.1920.965@0.23.1920.965" timestamp="1589729952282" />
-    <state width="1899" height="277" key="GridCell.Tab.0.left/0.23.1920.966@0.23.1920.966" timestamp="1590420576309" />
-    <state width="1899" height="342" key="GridCell.Tab.0.left/0.23.1920.967@0.23.1920.967" timestamp="1586113198731" />
-    <state width="1899" height="297" key="GridCell.Tab.0.left/0.23.1920.968@0.23.1920.968" timestamp="1588521897766" />
-    <state width="1899" height="279" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1589508983388" />
-    <state width="1899" height="185" key="GridCell.Tab.0.right" timestamp="1590977303781">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="319" key="GridCell.Tab.0.left/0.23.1920.972@0.23.1920.972" timestamp="1599433866902" />
+    <state width="1899" height="319" key="GridCell.Tab.0.right" timestamp="1599433866903">
+      <screen x="0" y="23" width="1920" height="972" />
     </state>
+    <state width="1419" height="140" key="GridCell.Tab.0.right/0.23.1440.782@0.23.1440.782" timestamp="1591066328641" />
     <state width="1899" height="185" key="GridCell.Tab.0.right/0.23.1920.962@0.23.1920.962" timestamp="1590977303781" />
-    <state width="1899" height="340" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1586720395948" />
-    <state width="1899" height="277" key="GridCell.Tab.0.right/0.23.1920.965@0.23.1920.965" timestamp="1589729952282" />
-    <state width="1899" height="277" key="GridCell.Tab.0.right/0.23.1920.966@0.23.1920.966" timestamp="1590420576310" />
-    <state width="1899" height="342" key="GridCell.Tab.0.right/0.23.1920.967@0.23.1920.967" timestamp="1586113198732" />
-    <state width="1899" height="297" key="GridCell.Tab.0.right/0.23.1920.968@0.23.1920.968" timestamp="1588521897768" />
-    <state width="1899" height="279" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1589508983389" />
-    <state width="1899" height="316" key="GridCell.Tab.1.bottom" timestamp="1590594694831">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="319" key="GridCell.Tab.0.right/0.23.1920.972@0.23.1920.972" timestamp="1599433866903" />
+    <state width="1899" height="319" key="GridCell.Tab.1.bottom" timestamp="1599433866904">
+      <screen x="0" y="23" width="1920" height="972" />
     </state>
-    <state width="1899" height="316" key="GridCell.Tab.1.bottom/0.23.1920.962@0.23.1920.962" timestamp="1590594694831" />
-    <state width="1899" height="318" key="GridCell.Tab.1.bottom/0.23.1920.966@0.23.1920.966" timestamp="1590380632225" />
-    <state width="1899" height="373" key="GridCell.Tab.1.bottom/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
-    <state width="1899" height="320" key="GridCell.Tab.1.bottom/0.23.1920.969@0.23.1920.969" timestamp="1589508983384" />
-    <state width="1899" height="316" key="GridCell.Tab.1.center" timestamp="1590594694830">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="319" key="GridCell.Tab.1.bottom/0.23.1920.972@0.23.1920.972" timestamp="1599433866904" />
+    <state width="1899" height="319" key="GridCell.Tab.1.center" timestamp="1599433866904">
+      <screen x="0" y="23" width="1920" height="972" />
     </state>
-    <state width="1899" height="316" key="GridCell.Tab.1.center/0.23.1920.962@0.23.1920.962" timestamp="1590594694830" />
-    <state width="1899" height="318" key="GridCell.Tab.1.center/0.23.1920.966@0.23.1920.966" timestamp="1590380632223" />
-    <state width="1899" height="373" key="GridCell.Tab.1.center/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
-    <state width="1899" height="320" key="GridCell.Tab.1.center/0.23.1920.969@0.23.1920.969" timestamp="1589508983383" />
-    <state width="1899" height="316" key="GridCell.Tab.1.left" timestamp="1590594694830">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="319" key="GridCell.Tab.1.center/0.23.1920.972@0.23.1920.972" timestamp="1599433866904" />
+    <state width="1899" height="319" key="GridCell.Tab.1.left" timestamp="1599433866903">
+      <screen x="0" y="23" width="1920" height="972" />
     </state>
-    <state width="1899" height="316" key="GridCell.Tab.1.left/0.23.1920.962@0.23.1920.962" timestamp="1590594694830" />
-    <state width="1899" height="318" key="GridCell.Tab.1.left/0.23.1920.966@0.23.1920.966" timestamp="1590380632223" />
-    <state width="1899" height="373" key="GridCell.Tab.1.left/0.23.1920.968@0.23.1920.968" timestamp="1588481125750" />
-    <state width="1899" height="320" key="GridCell.Tab.1.left/0.23.1920.969@0.23.1920.969" timestamp="1589508983383" />
-    <state width="1899" height="316" key="GridCell.Tab.1.right" timestamp="1590594694831">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state width="1899" height="319" key="GridCell.Tab.1.left/0.23.1920.972@0.23.1920.972" timestamp="1599433866903" />
+    <state width="1899" height="319" key="GridCell.Tab.1.right" timestamp="1599433866904">
+      <screen x="0" y="23" width="1920" height="972" />
     </state>
-    <state width="1899" height="316" key="GridCell.Tab.1.right/0.23.1920.962@0.23.1920.962" timestamp="1590594694831" />
-    <state width="1899" height="318" key="GridCell.Tab.1.right/0.23.1920.966@0.23.1920.966" timestamp="1590380632224" />
-    <state width="1899" height="373" key="GridCell.Tab.1.right/0.23.1920.968@0.23.1920.968" timestamp="1588481125751" />
-    <state width="1899" height="320" key="GridCell.Tab.1.right/0.23.1920.969@0.23.1920.969" timestamp="1589508983383" />
-    <state width="960" height="484" key="XDebugger.FullValuePopup" timestamp="1589047210545">
-      <screen x="0" y="23" width="1920" height="969" />
-    </state>
-    <state width="960" height="484" key="XDebugger.FullValuePopup/0.23.1920.969@0.23.1920.969" timestamp="1589047210545" />
-    <state x="529" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1584280126299">
-      <screen x="0" y="23" width="1920" height="969" />
-    </state>
-    <state x="397" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1582588710946" />
-    <state x="529" y="304" key="com.intellij.ide.util.TipDialog/0.23.1920.969@0.23.1920.969" timestamp="1584280126299" />
-    <state x="561" y="129" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588893904385">
-      <screen x="0" y="23" width="1920" height="969" />
-    </state>
-    <state x="561" y="129" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.969@0.23.1920.969" timestamp="1588893904385" />
+    <state width="1899" height="319" key="GridCell.Tab.1.right/0.23.1920.972@0.23.1920.972" timestamp="1599433866904" />
     <state x="640" y="142" width="782" height="725" key="find.popup" timestamp="1590870195413">
       <screen x="0" y="23" width="1920" height="962" />
     </state>
     <state x="640" y="142" width="782" height="725" key="find.popup/0.23.1920.962@0.23.1920.962" timestamp="1590870195413" />
-    <state x="640" y="143" width="639" height="727" key="find.popup/0.23.1920.966@0.23.1920.966" timestamp="1590000500955" />
-    <state x="640" y="143" width="639" height="728" key="find.popup/0.23.1920.967@0.23.1920.967" timestamp="1586110729630" />
-    <state x="640" y="143" width="639" height="729" key="find.popup/0.23.1920.969@0.23.1920.969" timestamp="1588891529481" />
-    <state x="513" y="169" width="894" height="818" key="search.everywhere.popup" timestamp="1590977013133">
-      <screen x="0" y="23" width="1920" height="962" />
+    <state x="513" y="171" width="894" height="827" key="search.everywhere.popup" timestamp="1598798746158">
+      <screen x="0" y="23" width="1920" height="972" />
     </state>
     <state x="513" y="169" width="894" height="818" key="search.everywhere.popup/0.23.1920.962@0.23.1920.962" timestamp="1590977013133" />
-    <state x="513" y="170" width="894" height="821" key="search.everywhere.popup/0.23.1920.966@0.23.1920.966" timestamp="1590363873303" />
-    <state x="513" y="170" width="894" height="821" key="search.everywhere.popup/0.23.1920.967@0.23.1920.967" timestamp="1586112759213" />
-    <state x="513" y="170" width="894" height="822" key="search.everywhere.popup/0.23.1920.969@0.23.1920.969" timestamp="1584900093248" />
+    <state x="513" y="171" width="894" height="827" key="search.everywhere.popup/0.23.1920.972@0.23.1920.972" timestamp="1598798746158" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
