@@ -15,6 +15,7 @@ class Solution:
         maxQ, minQ = [], []
         while maxHeap: maxQ.append(heapq.heappop(maxHeap))
         while minHeap: minQ.append(-heapq.heappop(minHeap))
+        print(maxQ,minQ)
         res = float('inf')
         for x in range(4):
             res = min(res, maxQ[3-x] - minQ[x])
@@ -24,3 +25,4 @@ class Solution:
 a=Solution()
 print(a.minDifference([1,5,0,10,14]))
 print(a.minDifference([9,48,92,48,81,31]))
+print(a.minDifference([14,10,5,1,0]))
