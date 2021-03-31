@@ -6,20 +6,42 @@
 # 初始化dp[-1],dp[-2],dp[-3]即可
 
 class Solution:
-    def stoneGameIII(self, arr):
+
+    # 思路1: bottom-up dp
+    def stoneGameIII(self, arr) -> str:
+        def helper(x):
+            return "Alice" if x>0 else "Bob" if x<0 else "Tie"
         N = len(arr)
-        def helper(n):
-             return "Alice" if n>0 else "Bob" if n<0 else "Tie"
-        dp=[0]*N
-        dp[N-1]=arr[-1]
-        if N==1: return helper(dp[0])
-        dp[N-2]=max(arr[-2]-arr[-1],arr[-2]+arr[-1])
-        if N==2: return helper(dp[0])
-        dp[N-3]=max(arr[-3]-dp[N-2],arr[-3]+arr[-2]-dp[N-1],arr[-3]+arr[-2]+arr[-1])
-        if N==3: return helper(dp[0])
-        for i in range(N-4,-1,-1):
-            dp[i] = max(arr[i]-dp[i+1],arr[i]+arr[i+1]-dp[i+2],arr[i]+arr[i+1]+arr[i+2]-dp[i+3])
+        dp = [0]*(N+1)
+        for i in range(N)[::-1]:
+            dp[i], take = float('-inf'), 0
+            for k in range(1,4):
+                if i+k<=N:
+                    take += arr[i+k-1]
+                    dp[i] = max(dp[i], take-dp[i+k])
         return helper(dp[0])
+
+    # 思路2: top-down dp
+    def stoneGameIII2(self, arr):
+        N = len(arr)
+        memo = [float('inf')] * N
+
+        def helper(x):
+            return "Alice" if x > 0 else "Bob" if x < 0 else "Tie"
+
+        def dp(i):
+            if i >= N: return 0
+            if memo[i] != float('inf'): return memo[i]
+            res, take = float('-inf'), 0
+            for k in range(1, 4):
+                if i + k <= N:
+                    take += arr[i + k - 1]
+                    res = max(res, take - dp(i + k))
+            memo[i] = res
+            return res
+
+        return helper(dp(0))
+
 
 a=Solution()
 print(a.stoneGameIII([-1]))
