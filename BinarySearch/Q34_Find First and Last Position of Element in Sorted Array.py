@@ -1,31 +1,36 @@
-class Solution:
-    def getRange(self,nums,center):
-        left,right=center,center
-        while left>-1 and nums[left]==nums[center]: left-=1
-        while right<len(nums) and nums[right]==nums[center]: right+=1
-        return [left+1,right-1]
 
+# 思路: 寻找最左边>=target的位置 和 最右边<=target的位置
+
+class Solution:
     def searchRange(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        low,high=0,len(nums)-1
-        while low<=high:
-            mid=(low+high)//2
-            if nums[mid]==target:
-                return self.getRange(nums,mid)
-            elif nums[mid]>target:
-                high=mid-1
+        if not nums: return [-1, -1]
+        return [self.search_left(nums, target), self.search_right(nums, target)]
+
+    def search_left(self, nums, target):
+        l, r = 0, len(nums) - 1
+        while l < r:
+            mid = (l + r) // 2
+            if nums[mid] < target:
+                l = mid + 1
             else:
-                low=mid+1
-        return [-1,-1]
+                r = mid
+        return l if nums[l] == target else -1
+
+    def search_right(self, nums, target):
+        l, r = 0, len(nums) - 1
+        while l < r:
+            mid = (l + r + 1) // 2
+            if nums[mid] > target:
+                r = mid - 1
+            else:
+                l = mid
+        return l if nums[l] == target else -1
+
 
 a=Solution()
 print(a.searchRange([1,4,6],4))
 print(a.searchRange([1,4,4,4,4,4,4],4))
-print(a.searchRange([4,4,4,4,4,4,1,1],4))
+print(a.searchRange([4,4,4,4,4,4],4))
 print(a.searchRange([4,5,5,5,5,6,7],5))
 print(a.searchRange([1,5,6,7,8,9,10],6))
 print(a.searchRange([4,5],6))

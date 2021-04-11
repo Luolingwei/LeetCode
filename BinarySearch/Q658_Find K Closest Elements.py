@@ -2,7 +2,7 @@
 # Output: [1,2,3,4]
 
 # 思路1: 先找到target的位置，然后往两边查找最近的数字.
-# 思路2: binary search，查找目标范围的左边界. 取得最近的k个数的时候所有数与x的总距离一定最小.
+# 思路2: binary search，查找目标范围的左边界. 即第一个A[i]<=A[i+k]的位置, 此时如果再往右移, 则距离会增加A[i+k]-A[i], 之前一直在减小.
 # 比较A[mid]和x的距离 vs A[mid+k]和x的距离(当前和向右移动一位)
 # 如果A[mid]与x距离更大，那么应该范围向右移动查找(l=mid+1)，这样距离一定会变近, 否则保持当前mid为右边界.
 # 这样一直往总距离往最小的方向搜索.
@@ -37,6 +37,7 @@ class Solution:
         return A[l:l+k]
 
 a=Solution()
+print(a.findClosestElements([1,1,2,2,2,2,2,3,3],3,3))
 print(a.findClosestElements([1,2,3,4,5],4,3))
 print(a.findClosestElements([1,2,3,4,5],4,-1))
 print(a.findClosestElements([3,4,5,10,20],4,5))
