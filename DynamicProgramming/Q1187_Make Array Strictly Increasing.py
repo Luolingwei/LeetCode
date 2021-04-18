@@ -5,6 +5,8 @@
 # 思路: dp(i,prev)表示完成i及其后面的排序需要的operation次数, 分为当前换和不换两种情况
 # dp(i,prev)=min(dp(i+1,A[i]) if A[i]>prev, dp(i+1,B[j])+1), B[j]取B中比prev稍微大一点的
 
+# T(n) = 2*T(n-1) + log(n)
+
 import bisect
 class Solution:
     def makeArrayIncreasing(self, A, B):

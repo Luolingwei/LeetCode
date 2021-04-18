@@ -53,6 +53,5 @@ def drawtree(root):
 
 if __name__ == '__main__':
     # drawtree(deserialize('[2,3,3,4,null,null,4,null,5,5,null,null,6,6,null,7,8,8,7,9,0,0,1,1,0,0,9]'))
-    drawtree(deserialize('[1,2,3,4,null,null,7,8,9,null,null,12,null,null,null,null,13,null,14]'))
-
-    # drawtree(deserialize('[2,1,3,0,7,9,1,2,null,1,0,null,null,8,8,null,null,null,null,7]'))
+    # drawtree(deserialize('[1,2,3,4,null,null,7,8,9,null,null,12,null,null,null,null,13,null,14]'))
+    drawtree(deserialize('[1,2,3,4]'))

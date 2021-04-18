@@ -31,12 +31,11 @@ class Solution:
 
     def numIslands2(self, m, n, positions):
         def find(x):
-            while x in uf:
-                # path compress
-                while uf[x] in uf:
-                    uf[x] = uf[uf[x]]
-                x = uf[x]
+            if x in uf:
+                uf[x] = find(uf[x])
+                return uf[x]
             return x
+
         def union(x,y):
             px,py = find(x), find(y)
             if px==py: return False
@@ -54,6 +53,7 @@ class Solution:
                         island-=1
             res.append(island)
         return res
+
 
 a=Solution()
 print(a.numIslands2(3,3,[[0,0], [0,1], [1,2], [2,1]]))

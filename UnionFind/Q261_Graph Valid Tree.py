@@ -5,11 +5,11 @@
 class Solution:
     def validTree(self, n, edges):
         def find(x):
-            while x in uf:
-                while uf[x] in uf:
-                    uf[x] = uf[uf[x]]
-                x = uf[x]
+            if x in uf:
+                uf[x] = find(uf[x])
+                return uf[x]
             return x
+
         def union(x, y):
             px, py = find(x), find(y)
             if px == py: return False
