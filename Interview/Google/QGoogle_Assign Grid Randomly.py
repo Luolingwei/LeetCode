@@ -24,5 +24,20 @@ class Random:
             self.assign()
         return self.board
 
+    def doit2(self):
+        limit = (self.m*self.n)/self.N_player
+        player_count = [0]*self.N_player
+        seeds = list(range(self.N_player))
+        for i in range(self.m):
+            for j in range(self.n):
+                player = random.choice(seeds)
+                self.board[i][j] = player
+                player_count[player] += 1
+                if player_count[player] == limit:
+                    seeds.remove(player)
+        return self.board
+
+
 a=Random(4,4,4)
 print(a.doit())
+print(a.doit2())
