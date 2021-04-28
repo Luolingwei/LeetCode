@@ -5,6 +5,7 @@ class Trie:
         Initialize your data structure here.
         """
         self.root={}
+
     def insert(self, word: str) -> None:
         """
         Inserts a word into the trie.
