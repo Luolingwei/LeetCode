@@ -18,7 +18,36 @@ class Solution:
                     bfs.append((next_node,visited|1<<next_node,dist+1))
                     memo.add((next_node,visited|1<<next_node))
 
+
+    def shortestPathLength2(self, graph):
+        N = len(graph)
+        target = (1 << N) - 1
+        min_D = min(len(g) for g in graph)
+        starts = [i for i in range(N) if len(graph[i]) == min_D]
+        memo = [[-1] * (1 << N) for _ in range(N)]
+
+        def dfs(i, visited):
+            if memo[i][visited] > 0: return memo[i][visited]
+            if visited == target: return 0
+            res = float('inf')
+            for next_i in graph[i]:
+                if (next_i, visited | 1 << next_i) not in seen:
+                    seen.add((next_i, visited | (1 << next_i)))
+                    res = min(res, dfs(next_i, visited | 1 << next_i) + 1)
+                    seen.remove((next_i, visited | 1 << next_i))
+            memo[i][visited] = res
+            return res
+
+
+        res = float('inf')
+        for start in starts:
+            seen = set()
+            res = min(res, dfs(start, 1<<start))
+        print(memo)
+        return res
+
+
 a=Solution()
-print(a.shortestPathLength([[1,2,3],[0],[0],[0]]))
-print(a.shortestPathLength([[1],[0,2,4],[1,3,4],[2],[1,2]]))
-print(a.shortestPathLength([[1],[0,2,4],[1,3],[2],[1,5],[4]]))
+print(a.shortestPathLength2([[1,2,3],[0],[0],[0]]))
+print(a.shortestPathLength2([[1],[0,2,4],[1,3,4],[2],[1,2]]))
+print(a.shortestPathLength2([[1],[0,2,4],[1,3],[2],[1,5],[4]]))
