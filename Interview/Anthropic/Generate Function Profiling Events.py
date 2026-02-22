@@ -34,5 +34,27 @@ class Solution1:
         return res
 
 
-
+class Solution2:
+    def stackEvents(self, samples: List[str]) -> List[str]:
+        stack = []
+        res = []
+        for sample in samples:
+            time, trace = sample.split(':')
+            funcs = [func for func in trace.split('->') if func]
+            for i, func in enumerate(funcs):
+                # func does not exist in stack
+                if i >= len(stack):
+                    res.append("start:" + time + ":" + func)
+                # mismatch point, first end, then start
+                elif stack[i] != func:
+                    ops = "end:" + time + ":"
+                    res += [ops + f for f in stack[i:][::-1]]
+                    stack = stack[:i]
+                    res.append("start:" + time + ":" + func)
+            # finished scanning cur trace, left some func in stack
+            if len(funcs) < len(stack):
+                ops = "end:" + time + ":"
+                res += [ops + f for f in stack[len(funcs):][::-1]]
+            stack = funcs
+        return res
 
